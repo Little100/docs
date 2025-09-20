@@ -4,9 +4,9 @@ import { viteBundler } from "@vuepress/bundler-vite";
 import { resolve } from "path";
 
 export default defineUserConfig({
-  // 根据环境动态设置base路径
-  // GitHub Pages需要使用仓库名作为base路径
-  base: process.env.NODE_ENV === 'production' ? '/docs/' : '/',
+  // 对于自定义域名，base路径设置为根路径
+  // 如果使用username.github.io/docs，改为 '/docs/'
+  base: '/',
   bundler: viteBundler({
     viteOptions: {
       ssr: {
