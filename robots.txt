@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://little100.github.io/docs/sitemap.xml
