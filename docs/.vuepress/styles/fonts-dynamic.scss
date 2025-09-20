@@ -1,0 +1,121 @@
+// 字体通过JavaScript动态加载，避免构建时路径问题
+
+// CSS变量用于动态字体切换
+:root {
+  --docs-font-family: "Minecraft", "MinecraftFallback", monospace;
+}
+
+// 基础字体应用
+body,
+h1, h2, h3, h4, h5, h6,
+button, input, select, textarea,
+.vp-doc {
+  font-family: var(--docs-font-family) !important;
+}
+
+// 字体类别样式
+.font-minecraft {
+  --docs-font-family: "Minecraft", "MinecraftFallback", monospace;
+}
+
+.font-system {
+  --docs-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.font-sans {
+  --docs-font-family: "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.font-serif {
+  --docs-font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-mono {
+  --docs-font-family: "SF Mono", Monaco, Inconsolata, "Roboto Mono", "Source Code Pro", monospace;
+}
+
+.font-comfort {
+  --docs-font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  
+  // 护眼字体的特殊设置
+  line-height: 1.8 !important;
+  letter-spacing: 0.02em;
+  
+  // 调整标题字重，提高可读性
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+  }
+  
+  // 调整段落间距
+  p {
+    margin-bottom: 1.2em;
+    line-height: 1.8;
+  }
+  
+  // 代码块在护眼模式下使用等宽字体
+  code, pre {
+    font-family: "SF Mono", Monaco, Inconsolata, "Roboto Mono", "Source Code Pro", monospace !important;
+  }
+}
+
+// 针对不同字体的特殊优化
+.font-minecraft {
+  // Minecraft字体的像素化风格
+  text-rendering: optimizeSpeed;
+  
+  // 调整代码块字体，保持可读性
+  code, pre {
+    font-family: "SF Mono", Monaco, Inconsolata, monospace !important;
+  }
+}
+
+.font-serif {
+  // 衬线字体的优化
+  text-rendering: optimizeLegibility;
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+}
+
+.font-mono {
+  // 等宽字体的字符间距调整
+  letter-spacing: 0.01em;
+}
+
+// 深色主题适配
+html.dark {
+  .font-comfort {
+    // 深色模式下的护眼优化
+    color: #e2e8f0;
+    
+    h1, h2, h3, h4, h5, h6 {
+      color: #f1f5f9;
+    }
+  }
+}
+
+// 字体切换动画
+body {
+  transition: font-family 0.3s ease;
+}
+
+// 移动端优化
+@media (max-width: 768px) {
+  .font-comfort {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  .font-minecraft {
+    font-size: 14px;
+  }
+}
+
+// 打印样式优化
+@media print {
+  body {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+}

@@ -1,0 +1,59 @@
+// 导入字体样式
+@import "./fonts-dynamic.scss";
+
+// 导入语言修复CSS
+
+// 直接定义question容器的样式，确保markdown容器和组件都能生效
+// Define custom container style for "question"
+.custom-container.question {
+  background-color: #e0f2fe !important;
+  border-color: #7dd3fc !important;
+  color: #0c5460 !important;
+  border-radius: 8px !important;
+  padding: 0.1rem 1.5rem !important;
+  border-left-width: 0.5rem !important;
+  border-left-style: solid !important;
+  margin: 1rem 0 !important;
+  
+  .custom-container-title,
+  .custom-block-title {
+    font-weight: 600 !important;
+    margin-bottom: 0.5rem !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  // 为两种可能的标题类名添加问号图标
+  .custom-container-title::before,
+  .custom-block-title::before {
+    content: "?" !important;
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: #38bdf8 !important;
+    color: white !important;
+    font-weight: bold !important;
+    margin-right: 8px !important;
+    font-size: 14px !important;
+  }
+  
+  p {
+    line-height: 1.7 !important;
+  }
+}
+
+// Dark theme support
+html.dark .custom-container.question {
+  background-color: #0c2e42 !important;
+  border-color: #1e638f !important;
+  color: #a6d8ff !important;
+  
+  .custom-container-title::before,
+  .custom-block-title::before {
+    background-color: #1e638f !important;
+    color: #ffffff !important;
+  }
+}
