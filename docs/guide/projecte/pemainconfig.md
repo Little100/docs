@@ -74,7 +74,7 @@ TransmutationTable：
 - divisionStrategy是指当一个物品没办法整除应该怎么版floor/ceil分别对应向上下取整
 
 - ~~Exclude_PDC是指是否排除PDC物品 默认是true 也就是排除PDC物品不去计算EMC值~~
->最新版1.1.0已经移除
+>1.1.0已经移除
 
 - only_mc_items是只计算原版我的世界的物品
 
@@ -104,6 +104,15 @@ TransmutationTable：
 
 <QuestionBlock title="那关于philosopher_stone?">
 
-未完成╥﹏╥...
-
+~~未完成╥﹏╥...~~
+应该是修复了
+```
+philosopher_stone:
+  enabled: true # 启用转换方块的功能
+  particle:
+    enabled: true # 启用粒子效果
+    particle-name: "end_rod" # 粒子效果的名称
+    # 可选的有flame sould_fire_flame dust enchant crit snowflake推荐end_rod
+    keep-alive: 3 # 存在时间 经过测试 3s在end_rod下比较合适
+```
 </QuestionBlock>

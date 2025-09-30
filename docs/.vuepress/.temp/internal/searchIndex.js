@@ -36,6 +36,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [],
+    "path": "/en_us/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Little_100之文章",
     "headers": [
       {
@@ -55,13 +62,6 @@ export const SEARCH_INDEX = [
     ],
     "path": "/lzh/",
     "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/en_us/",
-    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -153,100 +153,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Super Stick Sword",
-    "headers": [
-      {
-        "level": 2,
-        "title": "⚔️ 插件特色",
-        "slug": "⚔️-插件特色",
-        "link": "#⚔️-插件特色",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📥 下载地址",
-        "slug": "📥-下载地址",
-        "link": "#📥-下载地址",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📚 文档目录",
-        "slug": "📚-文档目录",
-        "link": "#📚-文档目录",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "🎮 游戏玩法",
-        "slug": "🎮-游戏玩法",
-        "link": "#🎮-游戏玩法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📞 需要帮助？",
-        "slug": "📞-需要帮助",
-        "link": "#📞-需要帮助",
-        "children": []
-      }
-    ],
-    "path": "/guide/super-stick-sword/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "合成配方",
-    "headers": [
-      {
-        "level": 2,
-        "title": "9个普通木棍合成压缩木棍",
-        "slug": "_9个普通木棍合成压缩木棍",
-        "link": "#_9个普通木棍合成压缩木棍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9个压缩木棍合成二重压缩木棍",
-        "slug": "_9个压缩木棍合成二重压缩木棍",
-        "link": "#_9个压缩木棍合成二重压缩木棍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "一直到八重压缩木棍后就可以用以下方式合成",
-        "slug": "一直到八重压缩木棍后就可以用以下方式合成",
-        "link": "#一直到八重压缩木棍后就可以用以下方式合成",
-        "children": []
-      }
-    ],
-    "path": "/guide/super-stick-sword/super-stick-sword-features.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "超级木剑",
-    "headers": [
-      {
-        "level": 2,
-        "title": "最后的压缩木剑100点攻击力(50♥)",
-        "slug": "最后的压缩木剑100点攻击力-50♥",
-        "link": "#最后的压缩木剑100点攻击力-50♥",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "下载",
-        "slug": "下载",
-        "link": "#下载",
-        "children": []
-      }
-    ],
-    "path": "/guide/super-stick-sword/super-stick-sword.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "贡献者名单",
     "headers": [
       {
@@ -274,6 +180,13 @@ export const SEARCH_INDEX = [
             "title": "创意想法",
             "slug": "创意想法",
             "link": "#创意想法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Bug",
+            "slug": "bug",
+            "link": "#bug",
             "children": []
           },
           {
@@ -697,29 +610,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "等價交換插件版",
-    "headers": [
-      {
-        "level": 2,
-        "title": "點擊左下角觀看大結局",
-        "slug": "點擊左下角觀看大結局",
-        "link": "#點擊左下角觀看大結局",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "從左側點擊快速開始查看如何安裝此插件",
-        "slug": "從左側點擊快速開始查看如何安裝此插件",
-        "link": "#從左側點擊快速開始查看如何安裝此插件",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "Contributor List",
+    "title": "Contributors List",
     "headers": [
       {
         "level": 2,
@@ -750,9 +641,16 @@ export const SEARCH_INDEX = [
           },
           {
             "level": 3,
-            "title": "Issues That Will Explicitly Not Be Fixed",
-            "slug": "issues-that-will-explicitly-not-be-fixed",
-            "link": "#issues-that-will-explicitly-not-be-fixed",
+            "title": "Bugs",
+            "slug": "bugs",
+            "link": "#bugs",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Issues That Will Not Be Fixed",
+            "slug": "issues-that-will-not-be-fixed",
+            "link": "#issues-that-will-not-be-fixed",
             "children": []
           }
         ]
@@ -1270,6 +1168,122 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "等價交換插件版",
+    "headers": [
+      {
+        "level": 2,
+        "title": "點擊左下角觀看大結局",
+        "slug": "點擊左下角觀看大結局",
+        "link": "#點擊左下角觀看大結局",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "從左側點擊快速開始查看如何安裝此插件",
+        "slug": "從左側點擊快速開始查看如何安裝此插件",
+        "link": "#從左側點擊快速開始查看如何安裝此插件",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "Super Stick Sword",
+    "headers": [
+      {
+        "level": 2,
+        "title": "⚔️ 插件特色",
+        "slug": "⚔️-插件特色",
+        "link": "#⚔️-插件特色",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📥 下载地址",
+        "slug": "📥-下载地址",
+        "link": "#📥-下载地址",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📚 文档目录",
+        "slug": "📚-文档目录",
+        "link": "#📚-文档目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 游戏玩法",
+        "slug": "🎮-游戏玩法",
+        "link": "#🎮-游戏玩法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 需要帮助？",
+        "slug": "📞-需要帮助",
+        "link": "#📞-需要帮助",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-stick-sword/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "合成配方",
+    "headers": [
+      {
+        "level": 2,
+        "title": "9个普通木棍合成压缩木棍",
+        "slug": "_9个普通木棍合成压缩木棍",
+        "link": "#_9个普通木棍合成压缩木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9个压缩木棍合成二重压缩木棍",
+        "slug": "_9个压缩木棍合成二重压缩木棍",
+        "link": "#_9个压缩木棍合成二重压缩木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一直到八重压缩木棍后就可以用以下方式合成",
+        "slug": "一直到八重压缩木棍后就可以用以下方式合成",
+        "link": "#一直到八重压缩木棍后就可以用以下方式合成",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-stick-sword/super-stick-sword-features.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "超级木剑",
+    "headers": [
+      {
+        "level": 2,
+        "title": "最后的压缩木剑100点攻击力(50♥)",
+        "slug": "最后的压缩木剑100点攻击力-50♥",
+        "link": "#最后的压缩木剑100点攻击力-50♥",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "下载",
+        "slug": "下载",
+        "link": "#下载",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-stick-sword/super-stick-sword.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "号令之介",
     "headers": [
       {
@@ -1335,7 +1349,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "贡献者名录",
+    "title": "功勳名錄",
     "headers": [
       {
         "level": 2,
@@ -1352,23 +1366,23 @@ export const SEARCH_INDEX = [
           },
           {
             "level": 3,
-            "title": "Issues",
+            "title": "issues",
             "slug": "issues",
             "link": "#issues",
             "children": []
           },
           {
             "level": 3,
-            "title": "创意",
-            "slug": "创意",
-            "link": "#创意",
+            "title": "奇思妙想",
+            "slug": "奇思妙想",
+            "link": "#奇思妙想",
             "children": []
           },
           {
             "level": 3,
-            "title": "明确不修复之问题",
-            "slug": "明确不修复之问题",
-            "link": "#明确不修复之问题",
+            "title": "謬誤",
+            "slug": "謬誤",
+            "link": "#謬誤",
             "children": []
           }
         ]
@@ -1713,122 +1727,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "命令介紹",
-    "headers": [
-      {
-        "level": 2,
-        "title": "您可以使用",
-        "slug": "您可以使用",
-        "link": "#您可以使用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "功能",
-        "slug": "功能",
-        "link": "#功能",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/super-farming/super-cmd.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "超級農事",
-    "headers": [
-      {
-        "level": 2,
-        "title": "下載",
-        "slug": "下載",
-        "link": "#下載",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "點擊左下角觀看大結局",
-        "slug": "點擊左下角觀看大結局",
-        "link": "#點擊左下角觀看大結局",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "從左側點擊快速開始查看如何安裝此外掛",
-        "slug": "從左側點擊快速開始查看如何安裝此外掛",
-        "link": "#從左側點擊快速開始查看如何安裝此外掛",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/super-farming/super-farming.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "用法",
-    "headers": [],
-    "path": "/zh-TW/guide/super-farming/super-usage.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "設定檔案",
-    "headers": [],
-    "path": "/zh-TW/guide/super-farming/superconfig.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "合成配方",
-    "headers": [
-      {
-        "level": 2,
-        "title": "9 個普通木棍合成壓縮木棍",
-        "slug": "_9-個普通木棍合成壓縮木棍",
-        "link": "#_9-個普通木棍合成壓縮木棍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9 個壓縮木棍合成二重壓縮木棍",
-        "slug": "_9-個壓縮木棍合成二重壓縮木棍",
-        "link": "#_9-個壓縮木棍合成二重壓縮木棍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "一直到八重壓縮木棍後就可以用以下方式合成",
-        "slug": "一直到八重壓縮木棍後就可以用以下方式合成",
-        "link": "#一直到八重壓縮木棍後就可以用以下方式合成",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/super-stick-sword/super-stick-sword-features.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "超級木劍",
-    "headers": [
-      {
-        "level": 2,
-        "title": "最後的壓縮木劍 100 點攻擊力 (50♥)",
-        "slug": "最後的壓縮木劍-100-點攻擊力-50♥",
-        "link": "#最後的壓縮木劍-100-點攻擊力-50♥",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "下載",
-        "slug": "下載",
-        "link": "#下載",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/super-stick-sword/super-stick-sword.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
     "title": "貢獻者名單",
     "headers": [
       {
@@ -1856,6 +1754,13 @@ export const SEARCH_INDEX = [
             "title": "創意想法",
             "slug": "創意想法",
             "link": "#創意想法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Bug",
+            "slug": "bug",
+            "link": "#bug",
             "children": []
           },
           {
@@ -2152,6 +2057,122 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/zh-TW/guide/projecte/",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "命令介紹",
+    "headers": [
+      {
+        "level": 2,
+        "title": "您可以使用",
+        "slug": "您可以使用",
+        "link": "#您可以使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "功能",
+        "slug": "功能",
+        "link": "#功能",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/super-farming/super-cmd.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "超級農事",
+    "headers": [
+      {
+        "level": 2,
+        "title": "下載",
+        "slug": "下載",
+        "link": "#下載",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "點擊左下角觀看大結局",
+        "slug": "點擊左下角觀看大結局",
+        "link": "#點擊左下角觀看大結局",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "從左側點擊快速開始查看如何安裝此外掛",
+        "slug": "從左側點擊快速開始查看如何安裝此外掛",
+        "link": "#從左側點擊快速開始查看如何安裝此外掛",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/super-farming/super-farming.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "用法",
+    "headers": [],
+    "path": "/zh-TW/guide/super-farming/super-usage.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "設定檔案",
+    "headers": [],
+    "path": "/zh-TW/guide/super-farming/superconfig.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "合成配方",
+    "headers": [
+      {
+        "level": 2,
+        "title": "9 個普通木棍合成壓縮木棍",
+        "slug": "_9-個普通木棍合成壓縮木棍",
+        "link": "#_9-個普通木棍合成壓縮木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9 個壓縮木棍合成二重壓縮木棍",
+        "slug": "_9-個壓縮木棍合成二重壓縮木棍",
+        "link": "#_9-個壓縮木棍合成二重壓縮木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一直到八重壓縮木棍後就可以用以下方式合成",
+        "slug": "一直到八重壓縮木棍後就可以用以下方式合成",
+        "link": "#一直到八重壓縮木棍後就可以用以下方式合成",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/super-stick-sword/super-stick-sword-features.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "超級木劍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "最後的壓縮木劍 100 點攻擊力 (50♥)",
+        "slug": "最後的壓縮木劍-100-點攻擊力-50♥",
+        "link": "#最後的壓縮木劍-100-點攻擊力-50♥",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "下載",
+        "slug": "下載",
+        "link": "#下載",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/super-stick-sword/super-stick-sword.html",
     "pathLocale": "/zh-TW/",
     "extraFields": []
   },

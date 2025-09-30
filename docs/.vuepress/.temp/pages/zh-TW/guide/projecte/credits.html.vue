@@ -17,11 +17,16 @@
 </ul>
 <h3 id="創意想法" tabindex="-1"><a class="header-anchor" href="#創意想法"><span>創意想法</span></a></h3>
 <ul>
-<li>ProjectE的命令想法由<a href="https://github.com/527953120" target="_blank" rel="noopener noreferrer">527953120</a>提供</li>
+<li>ProjectE的指令想法由<a href="https://github.com/527953120" target="_blank" rel="noopener noreferrer">527953120</a>提供</li>
 <li>潛影盒裡的物品的EMC計算由<a href="https://github.com/AconHol" target="_blank" rel="noopener noreferrer">AconHol</a>提供</li>
 <li>&quot;文言&quot;語言想法insehuj_uic提供</li>
 <li>ProjectE的搜索功能想法<a href="https://github.com/duanjiayiznb" target="_blank" rel="noopener noreferrer">duanjiayiznb</a>提供</li>
 </ul>
+<h3 id="bug" tabindex="-1"><a class="header-anchor" href="#bug"><span>Bug</span></a></h3>
+<pre><code>- QQ用戶[3896****72]1.20.1無法正常加載
+- QQ用戶[3896****72]1.20.1GUI點擊錯誤
+- QQ用戶[3896****72]1.20.6材質錯誤
+</code></pre>
 <h3 id="明確不會修復的問題" tabindex="-1"><a class="header-anchor" href="#明確不會修復的問題"><span>明確不會修復的問題</span></a></h3>
 <ul>
 <li><a href="https://github.com/Little100/ProjectE-plugin/issues/4" target="_blank" rel="noopener noreferrer">issue 4</a></li>

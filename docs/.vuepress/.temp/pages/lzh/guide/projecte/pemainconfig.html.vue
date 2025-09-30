@@ -89,7 +89,15 @@
 <p>插件既啟，其自為「true」矣。</p>
 </QuestionBlock>
 <QuestionBlock title="賢者之石何如？">
-<p>未竟也╥﹏╥...</p>
-</QuestionBlock></div></template>
+<p><s>未竟也╥﹏╥...</s>
+應已修復。</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>philosopher_stone:</span></span>
+<span class="line"><span>  enabled: true # 啟轉換方塊之能</span></span>
+<span class="line"><span>  particle:</span></span>
+<span class="line"><span>    enabled: true # 啟粒子之效</span></span>
+<span class="line"><span>    particle-name: "end_rod" # 粒子之名</span></span>
+<span class="line"><span>    # 可選者有flame sould_fire_flame dust enchant crit snowflake，薦end_rod</span></span>
+<span class="line"><span>    keep-alive: 3 # 存續之時，試之，三秒於end_rod為宜</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></QuestionBlock></div></template>
 
 

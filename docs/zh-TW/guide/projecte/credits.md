@@ -1,6 +1,6 @@
 ---
 title: 貢獻者名單
-description: ProjectE插件貢獻者感謝名單
+description: ProjectE外掛貢獻者感謝名單
 ---
 
 # 貢獻者名單
@@ -15,10 +15,14 @@ description: ProjectE插件貢獻者感謝名單
   - [issue 3](https://github.com/Little100/ProjectE-plugin/issues/3)
   - [issue 6](https://github.com/Little100/ProjectE-plugin/issues/6)
   ### 創意想法
-  - ProjectE的命令想法由[527953120](https://github.com/527953120)提供
+  - ProjectE的指令想法由[527953120](https://github.com/527953120)提供
   - 潛影盒裡的物品的EMC計算由[AconHol](https://github.com/AconHol)提供
   - "文言"語言想法insehuj_uic提供
   - ProjectE的搜索功能想法[duanjiayiznb](https://github.com/duanjiayiznb)提供
+  ### Bug
+    - QQ用戶[3896****72]1.20.1無法正常加載
+    - QQ用戶[3896****72]1.20.1GUI點擊錯誤
+    - QQ用戶[3896****72]1.20.6材質錯誤
   ### 明確不會修復的問題
   - [issue 4](https://github.com/Little100/ProjectE-plugin/issues/4)
 

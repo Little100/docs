@@ -22,6 +22,12 @@
 <li>&quot;文言&quot;语言想法insehuj_uic提供</li>
 <li>ProjectE的搜索功能想法<a href="https://github.com/duanjiayiznb" target="_blank" rel="noopener noreferrer">duanjiayiznb</a>提供</li>
 </ul>
+<h3 id="bug" tabindex="-1"><a class="header-anchor" href="#bug"><span>Bug</span></a></h3>
+<ul>
+<li>QQ用户[3896****72]1.20.1无法正常加载</li>
+<li>QQ用户[3896****72]1.20.1GUI点击错误</li>
+<li>QQ用户[3896****72]1.20.6材质错误</li>
+</ul>
 <h3 id="明确不会修复的问题" tabindex="-1"><a class="header-anchor" href="#明确不会修复的问题"><span>明确不会修复的问题</span></a></h3>
 <ul>
 <li><a href="https://github.com/Little100/ProjectE-plugin/issues/4" target="_blank" rel="noopener noreferrer">issue 4</a></li>

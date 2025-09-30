@@ -19,6 +19,10 @@ description: ProjectE插件贡献者感谢名单
   - 潜影盒里的物品的EMC计算由[AconHol](https://github.com/AconHol)提供
   - "文言"语言想法insehuj_uic提供
   - ProjectE的搜索功能想法[duanjiayiznb](https://github.com/duanjiayiznb)提供
+  ### Bug
+  - QQ用户[3896****72]1.20.1无法正常加载
+  - QQ用户[3896****72]1.20.1GUI点击错误
+  - QQ用户[3896****72]1.20.6材质错误
   ### 明确不会修复的问题
   - [issue 4](https://github.com/Little100/ProjectE-plugin/issues/4)
 

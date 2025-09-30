@@ -74,7 +74,7 @@ TransmutationTable:
 - `divisionStrategy` determines how to handle non-integer results from division. `floor`/`ceil` correspond to rounding down/up respectively.
 
 - ~~`Exclude_PDC` determines whether to exclude PDC items. Default is `true`, meaning PDC items are excluded from EMC calculation.~~
-> Removed in the latest version 1.1.0.
+> Removed in version 1.1.0.
 
 - `only_mc_items` calculates EMC only for vanilla Minecraft items.
 
@@ -104,6 +104,15 @@ It will automatically become `true` after the plugin is enabled.
 
 <QuestionBlock title="What about the philosopher_stone?">
 
-Unfinished ╥﹏╥...
-
+~~Unfinished ╥﹏╥...~~
+Should be fixed now.
+```
+philosopher_stone:
+  enabled: true # Enable the block transmutation feature
+  particle:
+    enabled: true # Enable particle effects
+    particle-name: "end_rod" # Name of the particle effect
+    # Options include flame, soul_fire_flame, dust, enchant, crit, snowflake. end_rod is recommended.
+    keep-alive: 3 # Duration in seconds. After testing, 3s is suitable for end_rod.
+```
 </QuestionBlock>

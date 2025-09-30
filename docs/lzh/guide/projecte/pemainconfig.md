@@ -104,6 +104,15 @@ TransmutationTable:
 
 <QuestionBlock title="賢者之石何如？">
 
-未竟也╥﹏╥...
-
+~~未竟也╥﹏╥...~~
+應已修復。
+```
+philosopher_stone:
+  enabled: true # 啟轉換方塊之能
+  particle:
+    enabled: true # 啟粒子之效
+    particle-name: "end_rod" # 粒子之名
+    # 可選者有flame sould_fire_flame dust enchant crit snowflake，薦end_rod
+    keep-alive: 3 # 存續之時，試之，三秒於end_rod為宜
+```
 </QuestionBlock>

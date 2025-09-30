@@ -68,7 +68,7 @@
 </li>
 </ul>
 <blockquote>
-<p>最新版1.1.0已经移除</p>
+<p>1.1.0已经移除</p>
 </blockquote>
 <ul>
 <li>
@@ -89,7 +89,15 @@
 <p>如果插件启用后他会自己变成true的</p>
 </QuestionBlock>
 <QuestionBlock title="那关于philosopher_stone?">
-<p>未完成╥﹏╥...</p>
-</QuestionBlock></div></template>
+<p><s>未完成╥﹏╥...</s>
+应该是修复了</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>philosopher_stone:</span></span>
+<span class="line"><span>  enabled: true # 启用转换方块的功能</span></span>
+<span class="line"><span>  particle:</span></span>
+<span class="line"><span>    enabled: true # 启用粒子效果</span></span>
+<span class="line"><span>    particle-name: "end_rod" # 粒子效果的名称</span></span>
+<span class="line"><span>    # 可选的有flame sould_fire_flame dust enchant crit snowflake推荐end_rod</span></span>
+<span class="line"><span>    keep-alive: 3 # 存在时间 经过测试 3s在end_rod下比较合适</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></QuestionBlock></div></template>
 
 

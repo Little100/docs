@@ -1,9 +1,9 @@
 ---
-title: Contributor List
-description: Thank you list for ProjectE plugin contributors
+title: Contributors List
+description: Acknowledgements for ProjectE plugin contributors
 ---
 
-# Contributor List
+# Contributors List
 
 ## ProjectE Plugins
   ### Pull Requests
@@ -15,11 +15,15 @@ description: Thank you list for ProjectE plugin contributors
   - [issue 3](https://github.com/Little100/ProjectE-plugin/issues/3)
   - [issue 6](https://github.com/Little100/ProjectE-plugin/issues/6)
   ### Creative Ideas
-  - The command ideas for ProjectE were provided by [527953120](https://github.com/527953120).
-  - The EMC calculation for items in Shulker Boxes was provided by [AconHol](https://github.com/AconHol).
-  - The "Classical Chinese" language idea was provided by insehuj_uic.
-  - The search function idea for ProjectE was provided by [duanjiayiznb](https://github.com/duanjiayiznb).
-  ### Issues That Will Explicitly Not Be Fixed
+  - Command ideas for ProjectE provided by [527953120](https://github.com/527953120).
+  - EMC calculation for items in shulker boxes provided by [AconHol](https://github.com/AconHol).
+  - "Classical Chinese" language idea provided by insehuj_uic.
+  - Search function idea for ProjectE provided by [duanjiayiznb](https://github.com/duanjiayiznb).
+  ### Bugs
+  - QQ User [3896****72] reported that 1.20.1 fails to load properly.
+  - QQ User [3896****72] reported GUI click errors in 1.20.1.
+  - QQ User [3896****72] reported texture errors in 1.20.6.
+  ### Issues That Will Not Be Fixed
   - [issue 4](https://github.com/Little100/ProjectE-plugin/issues/4)
 
-> Thank you all so much.
+> Thank you all very much.

@@ -68,7 +68,7 @@ The content shown is based on the default configuration file.</p>
 </li>
 </ul>
 <blockquote>
-<p>Removed in the latest version 1.1.0.</p>
+<p>Removed in version 1.1.0.</p>
 </blockquote>
 <ul>
 <li>
@@ -89,7 +89,15 @@ Let's say I want to change the EMC of a diamond to 114514. I would find the diam
 <p>It will automatically become <code v-pre>true</code> after the plugin is enabled.</p>
 </QuestionBlock>
 <QuestionBlock title="What about the philosopher_stone?">
-<p>Unfinished ╥﹏╥...</p>
-</QuestionBlock></div></template>
+<p><s>Unfinished ╥﹏╥...</s>
+Should be fixed now.</p>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>philosopher_stone:</span></span>
+<span class="line"><span>  enabled: true # Enable the block transmutation feature</span></span>
+<span class="line"><span>  particle:</span></span>
+<span class="line"><span>    enabled: true # Enable particle effects</span></span>
+<span class="line"><span>    particle-name: "end_rod" # Name of the particle effect</span></span>
+<span class="line"><span>    # Options include flame, soul_fire_flame, dust, enchant, crit, snowflake. end_rod is recommended.</span></span>
+<span class="line"><span>    keep-alive: 3 # Duration in seconds. After testing, 3s is suitable for end_rod.</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></QuestionBlock></div></template>
 
 
