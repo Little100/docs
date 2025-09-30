@@ -1,47 +1,47 @@
 ---
-title: 主配置文件
-description: 等价交换插件之文章
+title: 主簿錄
+description: 等價交換之術，其文策也
 ---
 
-# 关于主文件
+# 關於主簿
 # config.yml
 
 ::: tip
-非有提示，唯用`true`与`false`。
-文件内容皆为默认。
+非有示下，唯得以「true」與「false」應之。
+且所示者，皆為初設之容。
 :::
 
-## 语言
+## 語言
 ```yaml
-language: "lzh"
+language: "zh_cn"
 ```
-> 主要语言，默认为文言。
+> 主言也，默為簡體中文。
 
 ## Debug
 ```yaml
 debug: false
 ```
-> 默认为`false`。开启将输出甚多信息，故建议关闭，除非遇有疑难。
+> 默為「false」。啟之則言多，故非有故，勿啟也。
 
 ## 成就
 ```yaml
 Advancement_Datapack: true
 ```
-> 默认为`true`。此乃自定义成就，用以引导玩家。
+> 默為「true」。此乃自訂之成就，以引玩家。
 
-## 方块
+## 方塊
 ```yaml
 CustomBlockPack:
   enabled: true
 ```
-> 默认为`true`。此乃自定义显示方块，然需留意，其或耗性能。
+> 默為「true」。自訂方塊之示，然耗性能，慎之。
 
-## 炼金术士袋
+## 鍊金術士之袋
 ```yaml
 AlchemicalBag:
   enabled: true
 ```
-> 默认为`true`。若开启，玩家可用此物。
+> 默為「true」。若啟之，玩家可用此物。
 
 ## 工具
 ```yaml
@@ -51,9 +51,9 @@ Tools:
   area_of_effect_mining_enabled: true
   katar_attack_all_mode_enabled: true
 ```
-> 默认为`true`。其相关设置，可于`config.yml`注释中得解。
+> 默為「true」。其詳可覽config中之註解。
 
-## 转换桌
+## 轉換桌
 ```yaml
 TransmutationTable:
   enabled: true
@@ -67,21 +67,28 @@ TransmutationTable:
     ImportantItems:
       default: ...
 ```
-> 转换桌默认为开启。**transfer-fee-percentage**乃玩家间转账所需手续费，默认为0，即免手续费。
-> `recipeConflictStrategy`指多合成表时，当用何EMC值，可选`lowest`、`highest`。
-> `divisionStrategy`指物品无法整除时，当如何处理，`floor`/`ceil`分别对应向下、向上取整。
-> `Exclude_PDC`指是否排除PDC物品，默认为`true`，即排除PDC物品，不计其EMC值。
-> `only_mc_items`仅计算原版Minecraft物品之EMC。
-> `ImportantItems`乃重要物品之设置，甚不建议更改。
+- 轉換桌默啟。**transfer-fee-percentage**者，玩家互易之稅也，默為零，即無稅。
 
-<QuestionBlock title="与汝何干？吾必欲置之！">
+- recipeConflictStrategy者，多方並存，取何EMC值也。有「lowest」、「highest」可擇。
 
-既如此。内有设置，类如下方：
+- divisionStrategy者，物不可整除，如之何也。「floor」/「ceil」者，向下、向上取整也。
+
+- ~~Exclude_PDC者，是否排PDC之物也。默為「true」，即不計其EMC值。~~
+> 新版1.1.0已廢之。
+
+- only_mc_items者，僅計原版Minecraft之物。
+
+- ImportantItems者，要物之設也，甚不建議更之。
+
+
+<QuestionBlock title="豈容爾管？吾意已決！">
+
+既如此。內有如下之設：
 ```yaml
 - item: number
 ```
-此意为置“item”之EMC为`number`。
-譬如，吾欲改钻石之EMC为114514，则寻钻石一行，改为如下：
+此意為設「item」之EMC為「number」。
+譬如，吾欲改鑽石之EMC為一一四五一四，則尋鑽石之行，改之如下：
 
 ```yaml
 - diamond: 114514
@@ -91,12 +98,12 @@ TransmutationTable:
 
 <QuestionBlock title="ConfrimDatapack何不言？">
 
-插件启用后，其将自变为`true`。
+插件既啟，其自為「true」矣。
 
 </QuestionBlock>
 
-<QuestionBlock title="贤者之石何如？">
+<QuestionBlock title="賢者之石何如？">
 
-未竟也 ╥﹏╥...
+未竟也╥﹏╥...
 
 </QuestionBlock>

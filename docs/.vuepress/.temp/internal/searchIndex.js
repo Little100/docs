@@ -14,13 +14,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [],
-    "path": "/en_us/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Little_100's Docs",
     "headers": [
       {
@@ -62,6 +55,13 @@ export const SEARCH_INDEX = [
     ],
     "path": "/lzh/",
     "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/en_us/",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -153,25 +153,97 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "等價交換插件版",
+    "title": "Super Stick Sword",
     "headers": [
       {
         "level": 2,
-        "title": "點擊左下角觀看大結局",
-        "slug": "點擊左下角觀看大結局",
-        "link": "#點擊左下角觀看大結局",
+        "title": "⚔️ 插件特色",
+        "slug": "⚔️-插件特色",
+        "link": "#⚔️-插件特色",
         "children": []
       },
       {
         "level": 2,
-        "title": "從左側點擊快速開始查看如何安裝此插件",
-        "slug": "從左側點擊快速開始查看如何安裝此插件",
-        "link": "#從左側點擊快速開始查看如何安裝此插件",
+        "title": "📥 下载地址",
+        "slug": "📥-下载地址",
+        "link": "#📥-下载地址",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📚 文档目录",
+        "slug": "📚-文档目录",
+        "link": "#📚-文档目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 游戏玩法",
+        "slug": "🎮-游戏玩法",
+        "link": "#🎮-游戏玩法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 需要帮助？",
+        "slug": "📞-需要帮助",
+        "link": "#📞-需要帮助",
         "children": []
       }
     ],
-    "path": "/zh-TW/guide/",
-    "pathLocale": "/zh-TW/",
+    "path": "/guide/super-stick-sword/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "合成配方",
+    "headers": [
+      {
+        "level": 2,
+        "title": "9个普通木棍合成压缩木棍",
+        "slug": "_9个普通木棍合成压缩木棍",
+        "link": "#_9个普通木棍合成压缩木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9个压缩木棍合成二重压缩木棍",
+        "slug": "_9个压缩木棍合成二重压缩木棍",
+        "link": "#_9个压缩木棍合成二重压缩木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一直到八重压缩木棍后就可以用以下方式合成",
+        "slug": "一直到八重压缩木棍后就可以用以下方式合成",
+        "link": "#一直到八重压缩木棍后就可以用以下方式合成",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-stick-sword/super-stick-sword-features.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "超级木剑",
+    "headers": [
+      {
+        "level": 2,
+        "title": "最后的压缩木剑100点攻击力(50♥)",
+        "slug": "最后的压缩木剑100点攻击力-50♥",
+        "link": "#最后的压缩木剑100点攻击力-50♥",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "下载",
+        "slug": "下载",
+        "link": "#下载",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-stick-sword/super-stick-sword.html",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -291,6 +363,13 @@ export const SEARCH_INDEX = [
         "title": "noemcitem",
         "slug": "noemcitem",
         "link": "#noemcitem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "pdcitem",
+        "slug": "pdcitem",
+        "link": "#pdcitem",
         "children": []
       },
       {
@@ -618,6 +697,28 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "等價交換插件版",
+    "headers": [
+      {
+        "level": 2,
+        "title": "點擊左下角觀看大結局",
+        "slug": "點擊左下角觀看大結局",
+        "link": "#點擊左下角觀看大結局",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "從左側點擊快速開始查看如何安裝此插件",
+        "slug": "從左側點擊快速開始查看如何安裝此插件",
+        "link": "#從左側點擊快速開始查看如何安裝此插件",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
     "title": "Contributor List",
     "headers": [
       {
@@ -738,6 +839,13 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
+        "title": "pdcitem",
+        "slug": "pdcitem",
+        "link": "#pdcitem",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "table",
         "slug": "table",
         "link": "#table",
@@ -803,9 +911,9 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "Achievements",
-        "slug": "achievements",
-        "link": "#achievements",
+        "title": "Advancements",
+        "slug": "advancements",
+        "link": "#advancements",
         "children": []
       },
       {
@@ -934,579 +1042,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/en/guide/projecte/",
-    "pathLocale": "/en/",
-    "extraFields": []
-  },
-  {
-    "title": "Super Stick Sword",
-    "headers": [
-      {
-        "level": 2,
-        "title": "⚔️ 插件特色",
-        "slug": "⚔️-插件特色",
-        "link": "#⚔️-插件特色",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📥 下载地址",
-        "slug": "📥-下载地址",
-        "link": "#📥-下载地址",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📚 文档目录",
-        "slug": "📚-文档目录",
-        "link": "#📚-文档目录",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "🎮 游戏玩法",
-        "slug": "🎮-游戏玩法",
-        "link": "#🎮-游戏玩法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📞 需要帮助？",
-        "slug": "📞-需要帮助",
-        "link": "#📞-需要帮助",
-        "children": []
-      }
-    ],
-    "path": "/guide/super-stick-sword/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "合成配方",
-    "headers": [
-      {
-        "level": 2,
-        "title": "9个普通木棍合成压缩木棍",
-        "slug": "_9个普通木棍合成压缩木棍",
-        "link": "#_9个普通木棍合成压缩木棍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9个压缩木棍合成二重压缩木棍",
-        "slug": "_9个压缩木棍合成二重压缩木棍",
-        "link": "#_9个压缩木棍合成二重压缩木棍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "一直到八重压缩木棍后就可以用以下方式合成",
-        "slug": "一直到八重压缩木棍后就可以用以下方式合成",
-        "link": "#一直到八重压缩木棍后就可以用以下方式合成",
-        "children": []
-      }
-    ],
-    "path": "/guide/super-stick-sword/super-stick-sword-features.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "超级木剑",
-    "headers": [
-      {
-        "level": 2,
-        "title": "最后的压缩木剑100点攻击力(50♥)",
-        "slug": "最后的压缩木剑100点攻击力-50♥",
-        "link": "#最后的压缩木剑100点攻击力-50♥",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "下载",
-        "slug": "下载",
-        "link": "#下载",
-        "children": []
-      }
-    ],
-    "path": "/guide/super-stick-sword/super-stick-sword.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "贡献者名录",
-    "headers": [
-      {
-        "level": 2,
-        "title": "ProjectE Plugins",
-        "slug": "projecte-plugins",
-        "link": "#projecte-plugins",
-        "children": [
-          {
-            "level": 3,
-            "title": "Pull Requests",
-            "slug": "pull-requests",
-            "link": "#pull-requests",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Issues",
-            "slug": "issues",
-            "link": "#issues",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "创意",
-            "slug": "创意",
-            "link": "#创意",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "明确不修复之问题",
-            "slug": "明确不修复之问题",
-            "link": "#明确不修复之问题",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/lzh/guide/projecte/credits.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "速启",
-    "headers": [
-      {
-        "level": 2,
-        "title": "可循下述之径取之",
-        "slug": "可循下述之径取之",
-        "link": "#可循下述之径取之",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "需一 Spigot 插件之服",
-        "slug": "需一-spigot-插件之服",
-        "link": "#需一-spigot-插件之服",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/projecte/one.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "自定其物",
-    "headers": [
-      {
-        "level": 2,
-        "title": "此乃用以设定EMC之值也。",
-        "slug": "此乃用以设定emc之值也。",
-        "link": "#此乃用以设定emc之值也。",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/projecte/peci.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "号令之设",
-    "headers": [],
-    "path": "/lzh/guide/projecte/pecmd.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "号令之介",
-    "headers": [
-      {
-        "level": 2,
-        "title": "夫号令之主体",
-        "slug": "夫号令之主体",
-        "link": "#夫号令之主体",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "reload",
-        "slug": "reload",
-        "link": "#reload",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "setemc",
-        "slug": "setemc",
-        "link": "#setemc",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "noemcitem",
-        "slug": "noemcitem",
-        "link": "#noemcitem",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "table",
-        "slug": "table",
-        "link": "#table",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "lang",
-        "slug": "lang",
-        "link": "#lang",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "pay",
-        "slug": "pay",
-        "link": "#pay",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "bag",
-        "slug": "bag",
-        "link": "#bag",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/projecte/pecmdusage.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "语种之设",
-    "headers": [
-      {
-        "level": 2,
-        "title": "今有三语可择。",
-        "slug": "今有三语可择。",
-        "link": "#今有三语可择。",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/projecte/pelang.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "主配置文件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "语言",
-        "slug": "语言",
-        "link": "#语言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Debug",
-        "slug": "debug",
-        "link": "#debug",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "成就",
-        "slug": "成就",
-        "link": "#成就",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "方块",
-        "slug": "方块",
-        "link": "#方块",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "炼金术士袋",
-        "slug": "炼金术士袋",
-        "link": "#炼金术士袋",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "工具",
-        "slug": "工具",
-        "link": "#工具",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "转换桌",
-        "slug": "转换桌",
-        "link": "#转换桌",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/projecte/pemainconfig.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "神物之设",
-    "headers": [
-      {
-        "level": 2,
-        "title": "与丹方之设同。",
-        "slug": "与丹方之设同。",
-        "link": "#与丹方之设同。",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/projecte/peopi.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "丹方之设",
-    "headers": [
-      {
-        "level": 2,
-        "title": "accessories.yml,devices.yml,op_item.yml,recipe.yml",
-        "slug": "accessories-yml-devices-yml-op-item-yml-recipe-yml",
-        "link": "#accessories-yml-devices-yml-op-item-yml-recipe-yml",
-        "children": [
-          {
-            "level": 3,
-            "title": "释义于上：",
-            "slug": "释义于上",
-            "link": "#释义于上",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/lzh/guide/projecte/perecipe.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "配置文件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "link": "#介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "可于侧栏择相应文件。",
-        "slug": "可于侧栏择相应文件。",
-        "link": "#可于侧栏择相应文件。",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/projecte/projecteconfig.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "ProjectE Plugin",
-    "headers": [
-      {
-        "level": 2,
-        "title": "🚀 快速开始",
-        "slug": "🚀-快速开始",
-        "link": "#🚀-快速开始",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "⚙️ 配置文档",
-        "slug": "⚙️-配置文档",
-        "link": "#⚙️-配置文档",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "🎮 使用指南",
-        "slug": "🎮-使用指南",
-        "link": "#🎮-使用指南",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📞 需要帮助？",
-        "slug": "📞-需要帮助",
-        "link": "#📞-需要帮助",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/projecte/",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "号令之介",
-    "headers": [
-      {
-        "level": 2,
-        "title": "可用",
-        "slug": "可用",
-        "link": "#可用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其用",
-        "slug": "其用",
-        "link": "#其用",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/super-farming/super-cmd.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "超级农事",
-    "headers": [
-      {
-        "level": 2,
-        "title": "取之",
-        "slug": "取之",
-        "link": "#取之",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "左下可见结局",
-        "slug": "左下可见结局",
-        "link": "#左下可见结局",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "左侧点“速启”以观安装之法",
-        "slug": "左侧点-速启-以观安装之法",
-        "link": "#左侧点-速启-以观安装之法",
-        "children": []
-      }
-    ],
-    "path": "/lzh/guide/super-farming/super-farming.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "用法",
-    "headers": [],
-    "path": "/lzh/guide/super-farming/super-usage.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "策之文件",
-    "headers": [],
-    "path": "/lzh/guide/super-farming/superconfig.html",
-    "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "Super Stick Sword",
-    "headers": [
-      {
-        "level": 2,
-        "title": "⚔️ Plugin Features",
-        "slug": "⚔️-plugin-features",
-        "link": "#⚔️-plugin-features",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📥 Download Links",
-        "slug": "📥-download-links",
-        "link": "#📥-download-links",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📚 Documentation Index",
-        "slug": "📚-documentation-index",
-        "link": "#📚-documentation-index",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "🎮 Gameplay",
-        "slug": "🎮-gameplay",
-        "link": "#🎮-gameplay",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📞 Need Help?",
-        "slug": "📞-need-help",
-        "link": "#📞-need-help",
-        "children": []
-      }
-    ],
-    "path": "/en/guide/super-stick-sword/",
-    "pathLocale": "/en/",
-    "extraFields": []
-  },
-  {
-    "title": "Crafting Recipe",
-    "headers": [
-      {
-        "level": 2,
-        "title": "9 normal sticks to craft a compressed stick",
-        "slug": "_9-normal-sticks-to-craft-a-compressed-stick",
-        "link": "#_9-normal-sticks-to-craft-a-compressed-stick",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9 compressed sticks to craft a double compressed stick",
-        "slug": "_9-compressed-sticks-to-craft-a-double-compressed-stick",
-        "link": "#_9-compressed-sticks-to-craft-a-double-compressed-stick",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "After reaching the eighth level of compressed sticks, you can craft it in the following way",
-        "slug": "after-reaching-the-eighth-level-of-compressed-sticks-you-can-craft-it-in-the-following-way",
-        "link": "#after-reaching-the-eighth-level-of-compressed-sticks-you-can-craft-it-in-the-following-way",
-        "children": []
-      }
-    ],
-    "path": "/en/guide/super-stick-sword/super-stick-sword-features.html",
-    "pathLocale": "/en/",
-    "extraFields": []
-  },
-  {
-    "title": "Super Stick Sword",
-    "headers": [
-      {
-        "level": 2,
-        "title": "The final compressed stick sword has 100 attack damage (50♥)",
-        "slug": "the-final-compressed-stick-sword-has-100-attack-damage-50♥",
-        "link": "#the-final-compressed-stick-sword-has-100-attack-damage-50♥",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Download",
-        "slug": "download",
-        "link": "#download",
-        "children": []
-      }
-    ],
-    "path": "/en/guide/super-stick-sword/super-stick-sword.html",
     "pathLocale": "/en/",
     "extraFields": []
   },
@@ -1641,6 +1176,492 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Super Stick Sword",
+    "headers": [
+      {
+        "level": 2,
+        "title": "⚔️ Plugin Features",
+        "slug": "⚔️-plugin-features",
+        "link": "#⚔️-plugin-features",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📥 Download Links",
+        "slug": "📥-download-links",
+        "link": "#📥-download-links",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📚 Documentation Index",
+        "slug": "📚-documentation-index",
+        "link": "#📚-documentation-index",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 Gameplay",
+        "slug": "🎮-gameplay",
+        "link": "#🎮-gameplay",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 Need Help?",
+        "slug": "📞-need-help",
+        "link": "#📞-need-help",
+        "children": []
+      }
+    ],
+    "path": "/en/guide/super-stick-sword/",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Crafting Recipe",
+    "headers": [
+      {
+        "level": 2,
+        "title": "9 normal sticks to craft a compressed stick",
+        "slug": "_9-normal-sticks-to-craft-a-compressed-stick",
+        "link": "#_9-normal-sticks-to-craft-a-compressed-stick",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9 compressed sticks to craft a double compressed stick",
+        "slug": "_9-compressed-sticks-to-craft-a-double-compressed-stick",
+        "link": "#_9-compressed-sticks-to-craft-a-double-compressed-stick",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "After reaching the eighth level of compressed sticks, you can craft it in the following way",
+        "slug": "after-reaching-the-eighth-level-of-compressed-sticks-you-can-craft-it-in-the-following-way",
+        "link": "#after-reaching-the-eighth-level-of-compressed-sticks-you-can-craft-it-in-the-following-way",
+        "children": []
+      }
+    ],
+    "path": "/en/guide/super-stick-sword/super-stick-sword-features.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Super Stick Sword",
+    "headers": [
+      {
+        "level": 2,
+        "title": "The final compressed stick sword has 100 attack damage (50♥)",
+        "slug": "the-final-compressed-stick-sword-has-100-attack-damage-50♥",
+        "link": "#the-final-compressed-stick-sword-has-100-attack-damage-50♥",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Download",
+        "slug": "download",
+        "link": "#download",
+        "children": []
+      }
+    ],
+    "path": "/en/guide/super-stick-sword/super-stick-sword.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "号令之介",
+    "headers": [
+      {
+        "level": 2,
+        "title": "可用",
+        "slug": "可用",
+        "link": "#可用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其用",
+        "slug": "其用",
+        "link": "#其用",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/super-farming/super-cmd.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "超级农事",
+    "headers": [
+      {
+        "level": 2,
+        "title": "取之",
+        "slug": "取之",
+        "link": "#取之",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "左下可见结局",
+        "slug": "左下可见结局",
+        "link": "#左下可见结局",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "左侧点“速启”以观安装之法",
+        "slug": "左侧点-速启-以观安装之法",
+        "link": "#左侧点-速启-以观安装之法",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/super-farming/super-farming.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "用法",
+    "headers": [],
+    "path": "/lzh/guide/super-farming/super-usage.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "策之文件",
+    "headers": [],
+    "path": "/lzh/guide/super-farming/superconfig.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "贡献者名录",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ProjectE Plugins",
+        "slug": "projecte-plugins",
+        "link": "#projecte-plugins",
+        "children": [
+          {
+            "level": 3,
+            "title": "Pull Requests",
+            "slug": "pull-requests",
+            "link": "#pull-requests",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Issues",
+            "slug": "issues",
+            "link": "#issues",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "创意",
+            "slug": "创意",
+            "link": "#创意",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "明确不修复之问题",
+            "slug": "明确不修复之问题",
+            "link": "#明确不修复之问题",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/lzh/guide/projecte/credits.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "速启",
+    "headers": [
+      {
+        "level": 2,
+        "title": "可循下述之径取之",
+        "slug": "可循下述之径取之",
+        "link": "#可循下述之径取之",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "需一 Spigot 插件之服",
+        "slug": "需一-spigot-插件之服",
+        "link": "#需一-spigot-插件之服",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/projecte/one.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "自定其物",
+    "headers": [
+      {
+        "level": 2,
+        "title": "此乃用以设定EMC之值也。",
+        "slug": "此乃用以设定emc之值也。",
+        "link": "#此乃用以设定emc之值也。",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/projecte/peci.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "号令之设",
+    "headers": [],
+    "path": "/lzh/guide/projecte/pecmd.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "號令詳解",
+    "headers": [
+      {
+        "level": 2,
+        "title": "號令之本",
+        "slug": "號令之本",
+        "link": "#號令之本",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "reload",
+        "slug": "reload",
+        "link": "#reload",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "setemc",
+        "slug": "setemc",
+        "link": "#setemc",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "noemcitem",
+        "slug": "noemcitem",
+        "link": "#noemcitem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "pdcitem",
+        "slug": "pdcitem",
+        "link": "#pdcitem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "table",
+        "slug": "table",
+        "link": "#table",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "lang",
+        "slug": "lang",
+        "link": "#lang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "pay",
+        "slug": "pay",
+        "link": "#pay",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "bag",
+        "slug": "bag",
+        "link": "#bag",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/projecte/pecmdusage.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "语种之设",
+    "headers": [
+      {
+        "level": 2,
+        "title": "今有三语可择。",
+        "slug": "今有三语可择。",
+        "link": "#今有三语可择。",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/projecte/pelang.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "主簿錄",
+    "headers": [
+      {
+        "level": 2,
+        "title": "語言",
+        "slug": "語言",
+        "link": "#語言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Debug",
+        "slug": "debug",
+        "link": "#debug",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "成就",
+        "slug": "成就",
+        "link": "#成就",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "方塊",
+        "slug": "方塊",
+        "link": "#方塊",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "鍊金術士之袋",
+        "slug": "鍊金術士之袋",
+        "link": "#鍊金術士之袋",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "工具",
+        "slug": "工具",
+        "link": "#工具",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "轉換桌",
+        "slug": "轉換桌",
+        "link": "#轉換桌",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/projecte/pemainconfig.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "神物之设",
+    "headers": [
+      {
+        "level": 2,
+        "title": "与丹方之设同。",
+        "slug": "与丹方之设同。",
+        "link": "#与丹方之设同。",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/projecte/peopi.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "丹方之设",
+    "headers": [
+      {
+        "level": 2,
+        "title": "accessories.yml,devices.yml,op_item.yml,recipe.yml",
+        "slug": "accessories-yml-devices-yml-op-item-yml-recipe-yml",
+        "link": "#accessories-yml-devices-yml-op-item-yml-recipe-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "释义于上：",
+            "slug": "释义于上",
+            "link": "#释义于上",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/lzh/guide/projecte/perecipe.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "配置文件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "link": "#介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "可于侧栏择相应文件。",
+        "slug": "可于侧栏择相应文件。",
+        "link": "#可于侧栏择相应文件。",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/projecte/projecteconfig.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "ProjectE Plugin",
+    "headers": [
+      {
+        "level": 2,
+        "title": "🚀 快速开始",
+        "slug": "🚀-快速开始",
+        "link": "#🚀-快速开始",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "⚙️ 配置文档",
+        "slug": "⚙️-配置文档",
+        "link": "#⚙️-配置文档",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 使用指南",
+        "slug": "🎮-使用指南",
+        "link": "#🎮-使用指南",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 需要帮助？",
+        "slug": "📞-需要帮助",
+        "link": "#📞-需要帮助",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/projecte/",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
     "title": "合成之方",
     "headers": [
       {
@@ -1689,326 +1710,6 @@ export const SEARCH_INDEX = [
     ],
     "path": "/lzh/guide/super-stick-sword/super-stick-sword.html",
     "pathLocale": "/lzh/",
-    "extraFields": []
-  },
-  {
-    "title": "貢獻者名單",
-    "headers": [
-      {
-        "level": 2,
-        "title": "ProjectE Plugins",
-        "slug": "projecte-plugins",
-        "link": "#projecte-plugins",
-        "children": [
-          {
-            "level": 3,
-            "title": "Pull Requests",
-            "slug": "pull-requests",
-            "link": "#pull-requests",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "issues",
-            "slug": "issues",
-            "link": "#issues",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "創意想法",
-            "slug": "創意想法",
-            "link": "#創意想法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "明確不會修復的問題",
-            "slug": "明確不會修復的問題",
-            "link": "#明確不會修復的問題",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/credits.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "快速開始",
-    "headers": [
-      {
-        "level": 2,
-        "title": "您可以從以下連結中下載外掛",
-        "slug": "您可以從以下連結中下載外掛",
-        "link": "#您可以從以下連結中下載外掛",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "您需要一個支援 Spigot 外掛的伺服器",
-        "slug": "您需要一個支援-spigot-外掛的伺服器",
-        "link": "#您需要一個支援-spigot-外掛的伺服器",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/one.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "自訂物品設定",
-    "headers": [
-      {
-        "level": 2,
-        "title": "就是用來設定EMC值的",
-        "slug": "就是用來設定emc值的",
-        "link": "#就是用來設定emc值的",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/peci.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "命令設定",
-    "headers": [],
-    "path": "/zh-TW/guide/projecte/pecmd.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "命令介紹",
-    "headers": [
-      {
-        "level": 2,
-        "title": "首先是命令主體",
-        "slug": "首先是命令主體",
-        "link": "#首先是命令主體",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "reload",
-        "slug": "reload",
-        "link": "#reload",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "setemc",
-        "slug": "setemc",
-        "link": "#setemc",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "noemcitem",
-        "slug": "noemcitem",
-        "link": "#noemcitem",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "table",
-        "slug": "table",
-        "link": "#table",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "lang",
-        "slug": "lang",
-        "link": "#lang",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "pay",
-        "slug": "pay",
-        "link": "#pay",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "bag",
-        "slug": "bag",
-        "link": "#bag",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/pecmdusage.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "語言設定",
-    "headers": [
-      {
-        "level": 2,
-        "title": "現在總共有3個語言支援",
-        "slug": "現在總共有3個語言支援",
-        "link": "#現在總共有3個語言支援",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/pelang.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "主配置文件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "語言",
-        "slug": "語言",
-        "link": "#語言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Debug",
-        "slug": "debug",
-        "link": "#debug",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "成就",
-        "slug": "成就",
-        "link": "#成就",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "方塊",
-        "slug": "方塊",
-        "link": "#方塊",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "煉金術士袋子",
-        "slug": "煉金術士袋子",
-        "link": "#煉金術士袋子",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "工具",
-        "slug": "工具",
-        "link": "#工具",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "轉換桌",
-        "slug": "轉換桌",
-        "link": "#轉換桌",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/pemainconfig.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "OP 物品設定",
-    "headers": [
-      {
-        "level": 2,
-        "title": "和合成表設定一樣",
-        "slug": "和合成表設定一樣",
-        "link": "#和合成表設定一樣",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/peopi.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "合成表設定",
-    "headers": [
-      {
-        "level": 2,
-        "title": "accessories.yml,devices.yml,op_item.yml,recipe.yml",
-        "slug": "accessories-yml-devices-yml-op-item-yml-recipe-yml",
-        "link": "#accessories-yml-devices-yml-op-item-yml-recipe-yml",
-        "children": [
-          {
-            "level": 3,
-            "title": "在這上面中",
-            "slug": "在這上面中",
-            "link": "#在這上面中",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/perecipe.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "配置文件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介紹",
-        "slug": "介紹",
-        "link": "#介紹",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "對應文件可以去側邊欄選擇",
-        "slug": "對應文件可以去側邊欄選擇",
-        "link": "#對應文件可以去側邊欄選擇",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/projecteconfig.html",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "Projecte Plugin",
-    "headers": [
-      {
-        "level": 2,
-        "title": "🚀 快速開始",
-        "slug": "🚀-快速開始",
-        "link": "#🚀-快速開始",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "⚙️ 配置文檔",
-        "slug": "⚙️-配置文檔",
-        "link": "#⚙️-配置文檔",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "🎮 使用指南",
-        "slug": "🎮-使用指南",
-        "link": "#🎮-使用指南",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📞 需要幫助？",
-        "slug": "📞-需要幫助",
-        "link": "#📞-需要幫助",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/projecte/",
-    "pathLocale": "/zh-TW/",
     "extraFields": []
   },
   {
@@ -2124,6 +1825,333 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/zh-TW/guide/super-stick-sword/super-stick-sword.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "貢獻者名單",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ProjectE Plugins",
+        "slug": "projecte-plugins",
+        "link": "#projecte-plugins",
+        "children": [
+          {
+            "level": 3,
+            "title": "Pull Requests",
+            "slug": "pull-requests",
+            "link": "#pull-requests",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "issues",
+            "slug": "issues",
+            "link": "#issues",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "創意想法",
+            "slug": "創意想法",
+            "link": "#創意想法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "明確不會修復的問題",
+            "slug": "明確不會修復的問題",
+            "link": "#明確不會修復的問題",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/credits.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "快速開始",
+    "headers": [
+      {
+        "level": 2,
+        "title": "您可以從以下連結中下載外掛",
+        "slug": "您可以從以下連結中下載外掛",
+        "link": "#您可以從以下連結中下載外掛",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "您需要一個支援 Spigot 外掛的伺服器",
+        "slug": "您需要一個支援-spigot-外掛的伺服器",
+        "link": "#您需要一個支援-spigot-外掛的伺服器",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/one.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "自訂物品設定",
+    "headers": [
+      {
+        "level": 2,
+        "title": "就是用來設定EMC值的",
+        "slug": "就是用來設定emc值的",
+        "link": "#就是用來設定emc值的",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/peci.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "命令設定",
+    "headers": [],
+    "path": "/zh-TW/guide/projecte/pecmd.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "指令介紹",
+    "headers": [
+      {
+        "level": 2,
+        "title": "首先是指令主體",
+        "slug": "首先是指令主體",
+        "link": "#首先是指令主體",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "reload",
+        "slug": "reload",
+        "link": "#reload",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "setemc",
+        "slug": "setemc",
+        "link": "#setemc",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "noemcitem",
+        "slug": "noemcitem",
+        "link": "#noemcitem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "pdcitem",
+        "slug": "pdcitem",
+        "link": "#pdcitem",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "table",
+        "slug": "table",
+        "link": "#table",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "lang",
+        "slug": "lang",
+        "link": "#lang",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "pay",
+        "slug": "pay",
+        "link": "#pay",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "bag",
+        "slug": "bag",
+        "link": "#bag",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/pecmdusage.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "語言設定",
+    "headers": [
+      {
+        "level": 2,
+        "title": "現在總共有3個語言支援",
+        "slug": "現在總共有3個語言支援",
+        "link": "#現在總共有3個語言支援",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/pelang.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "主設定檔案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "語言",
+        "slug": "語言",
+        "link": "#語言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Debug",
+        "slug": "debug",
+        "link": "#debug",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "成就",
+        "slug": "成就",
+        "link": "#成就",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "方塊",
+        "slug": "方塊",
+        "link": "#方塊",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "鍊金術士袋子",
+        "slug": "鍊金術士袋子",
+        "link": "#鍊金術士袋子",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "工具",
+        "slug": "工具",
+        "link": "#工具",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "轉換桌",
+        "slug": "轉換桌",
+        "link": "#轉換桌",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/pemainconfig.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "OP 物品設定",
+    "headers": [
+      {
+        "level": 2,
+        "title": "和合成表設定一樣",
+        "slug": "和合成表設定一樣",
+        "link": "#和合成表設定一樣",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/peopi.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "合成表設定",
+    "headers": [
+      {
+        "level": 2,
+        "title": "accessories.yml,devices.yml,op_item.yml,recipe.yml",
+        "slug": "accessories-yml-devices-yml-op-item-yml-recipe-yml",
+        "link": "#accessories-yml-devices-yml-op-item-yml-recipe-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "在這上面中",
+            "slug": "在這上面中",
+            "link": "#在這上面中",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/perecipe.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "配置文件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介紹",
+        "slug": "介紹",
+        "link": "#介紹",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "對應文件可以去側邊欄選擇",
+        "slug": "對應文件可以去側邊欄選擇",
+        "link": "#對應文件可以去側邊欄選擇",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/projecteconfig.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "Projecte Plugin",
+    "headers": [
+      {
+        "level": 2,
+        "title": "🚀 快速開始",
+        "slug": "🚀-快速開始",
+        "link": "#🚀-快速開始",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "⚙️ 配置文檔",
+        "slug": "⚙️-配置文檔",
+        "link": "#⚙️-配置文檔",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 使用指南",
+        "slug": "🎮-使用指南",
+        "link": "#🎮-使用指南",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 需要幫助？",
+        "slug": "📞-需要幫助",
+        "link": "#📞-需要幫助",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/projecte/",
     "pathLocale": "/zh-TW/",
     "extraFields": []
   },

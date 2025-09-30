@@ -1,47 +1,47 @@
 ---
 title: Main Configuration File
-description: Plugin documentation for the ProjectE Plugin
+description: Plugin documentation for ProjectE
 ---
 
 # About the Main Configuration File
 # config.yml
 
 ::: tip
-Unless otherwise specified, you can only use `true` or `false`.
-The content of the file is based on the default settings.
+Unless otherwise specified, you can only use `true` and `false`.
+The content shown is based on the default configuration file.
 :::
 
 ## Language
 ```yaml
-language: "en_us"
+language: "zh_cn"
 ```
-> The main language. Default is English.
+> Main language. Default is Simplified Chinese.
 
 ## Debug
 ```yaml
 debug: false
 ```
-> The default is `false`. Enabling this will output a large amount of information, so it is recommended to keep it disabled unless you encounter issues.
+> Defaults to `false`. Enabling it will output a lot of information, so it's recommended to keep it off unless there's an issue.
 
-## Achievements
+## Advancements
 ```yaml
 Advancement_Datapack: true
 ```
-> The default is `true`. This enables custom advancements to guide players.
+> Defaults to `true`. These are custom advancements to guide the player.
 
 ## Blocks
 ```yaml
 CustomBlockPack:
   enabled: true
 ```
-> The default is `true`. This enables custom display blocks, but be aware that it may impact performance.
+> Defaults to `true`. Enables custom display blocks, but be aware that it consumes performance.
 
 ## Alchemical Bag
 ```yaml
 AlchemicalBag:
   enabled: true
 ```
-> The default is `true`. If enabled, players can use this item.
+> Defaults to `true`. If enabled, players can use this item.
 
 ## Tools
 ```yaml
@@ -51,7 +51,7 @@ Tools:
   area_of_effect_mining_enabled: true
   katar_attack_all_mode_enabled: true
 ```
-> The default is `true`. You can find explanations for their settings in the comments within the `config.yml` file.
+> Defaults to `true`. You can find explanations for their settings in the comments within the config file.
 
 ## Transmutation Table
 ```yaml
@@ -67,21 +67,28 @@ TransmutationTable:
     ImportantItems:
       default: ...
 ```
-> The Transmutation Table is enabled by default. The **transfer-fee-percentage** is the fee for transferring EMC between players, which is 0 by default (no fee).
-> `recipeConflictStrategy` determines which EMC value to use when multiple recipes exist. Options are `lowest` and `highest`.
-> `divisionStrategy` determines how to handle non-integer results from division. `floor`/`ceil` correspond to rounding down/up.
-> `Exclude_PDC` determines whether to exclude PDC items. The default is `true`, which means PDC items are excluded from EMC calculations.
-> `only_mc_items` calculates EMC only for vanilla Minecraft items.
-> `ImportantItems` is for setting important items. It is highly recommended not to change this.
+- The Transmutation Table is enabled by default. The **transfer-fee-percentage** here refers to the fee for player-to-player transfers, which is 0 by default (no fee).
 
-<QuestionBlock title="None of your business! I want to configure it anyway!">
+- `recipeConflictStrategy` determines which EMC value to use when there are multiple recipes. Options are `lowest` and `highest`.
 
-Alright then. Inside, you will see settings similar to the following:
+- `divisionStrategy` determines how to handle non-integer results from division. `floor`/`ceil` correspond to rounding down/up respectively.
+
+- ~~`Exclude_PDC` determines whether to exclude PDC items. Default is `true`, meaning PDC items are excluded from EMC calculation.~~
+> Removed in the latest version 1.1.0.
+
+- `only_mc_items` calculates EMC only for vanilla Minecraft items.
+
+- `ImportantItems` is for setting important items. It is highly recommended not to change this.
+
+
+<QuestionBlock title="None of your business?! I want to set it!">
+
+Alright then. Inside, you will see settings like the one below:
 ```yaml
 - item: number
 ```
-This means setting the EMC of "item" to `number`.
-For example, if I want to change the EMC of a diamond to 114514, I would find the line for diamond and change it as follows:
+This means setting the EMC of "item" to "number".
+Let's say I want to change the EMC of a diamond to 114514. I would find the diamond line and change it as follows:
 
 ```yaml
 - diamond: 114514
@@ -91,12 +98,12 @@ For example, if I want to change the EMC of a diamond to 114514, I would find th
 
 <QuestionBlock title="Why didn't you mention ConfrimDatapack?!!!">
 
-It will automatically be set to `true` after the plugin is enabled.
+It will automatically become `true` after the plugin is enabled.
 
 </QuestionBlock>
 
-<QuestionBlock title="What about philosopher_stone?">
+<QuestionBlock title="What about the philosopher_stone?">
 
-Incomplete ╥﹏╥...
+Unfinished ╥﹏╥...
 
 </QuestionBlock>

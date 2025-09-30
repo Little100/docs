@@ -1,5 +1,5 @@
 <template><div><div class="hint-container warning">
-<p class="hint-container-title">注意</p>
+<p class="hint-container-title">Warning</p>
 <p>吾之原创插件！</p>
 <p>谁谓锄无用？！</p>
 </div>

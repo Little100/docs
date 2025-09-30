@@ -19,7 +19,9 @@ description: 等价交换插件的插件文档
  - 用于设置物品的EMC值(你手上的物品)
  - 用法: `前命令 + setemc <EMC值>`
 ## noemcitem
- - 用于查看EMC为0的物品
+ - 用于查看EMC为0的物品(即没有EMC的物品)
+## pdcitem
+ - 用于查看所有PDC物品的EMC
 ## table
  - 让你转换桌直接学会所有物品
  - 用法: `前命令 + table learn`

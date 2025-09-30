@@ -10,15 +10,15 @@
 <p>此文不知所言...姑置数常忘之物</p>
 </blockquote>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
+<p class="hint-container-title">Tips</p>
 <p>提示之文</p>
 </div>
 <div class="hint-container warning">
-<p class="hint-container-title">注意</p>
+<p class="hint-container-title">Warning</p>
 <p>警戒之文</p>
 </div>
 <div class="hint-container caution">
-<p class="hint-container-title">警告</p>
+<p class="hint-container-title">Caution</p>
 <p>危险之文</p>
 </div>
 <QuestionBlock title="问">

@@ -1,6 +1,6 @@
 <template><div><h1 id="projecte-plugin" tabindex="-1"><a class="header-anchor" href="#projecte-plugin"><span>ProjectE Plugin</span></a></h1>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
+<p class="hint-container-title">Tips</p>
 <p>此插件之灵感源于等价交换模组（ProjectE），还原其多数功能与物品。</p>
 </div>
 <h2 id="🚀-快速开始" tabindex="-1"><a class="header-anchor" href="#🚀-快速开始"><span>🚀 快速开始</span></a></h2>

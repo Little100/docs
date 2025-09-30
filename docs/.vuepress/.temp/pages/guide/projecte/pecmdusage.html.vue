@@ -24,7 +24,11 @@
 </ul>
 <h2 id="noemcitem" tabindex="-1"><a class="header-anchor" href="#noemcitem"><span>noemcitem</span></a></h2>
 <ul>
-<li>用于查看EMC为0的物品</li>
+<li>用于查看EMC为0的物品(即没有EMC的物品)</li>
+</ul>
+<h2 id="pdcitem" tabindex="-1"><a class="header-anchor" href="#pdcitem"><span>pdcitem</span></a></h2>
+<ul>
+<li>用于查看所有PDC物品的EMC</li>
 </ul>
 <h2 id="table" tabindex="-1"><a class="header-anchor" href="#table"><span>table</span></a></h2>
 <ul>

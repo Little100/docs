@@ -67,12 +67,19 @@ TransmutationTable：
     ImportantItems:
       default: ...
 ```
-> 转换桌默认是开启的 这里的**transfer-fee-percentage**是指玩家给玩家转账所需要的手续费 默认是0 也就是免手续费
-> recipeConflictStrategy是指多个合成表的情况下应该用什么EMC值 可选lowest highest
-> divisionStrategy是指当一个物品没办法整除应该怎么版floor/ceil分别对应向上下取整
-> Exclude_PDC是指是否排除PDC物品 默认是true 也就是排除PDC物品不去计算EMC值
-> only_mc_items是只计算原版我的世界的物品
-> ImportantItems是指重要物品的设置 非常不建议设置
+- 转换桌默认是开启的 这里的**transfer-fee-percentage**是指玩家给玩家转账所需要的手续费 默认是0 也就是免手续费
+
+- recipeConflictStrategy是指多个合成表的情况下应该用什么EMC值 可选lowest highest
+
+- divisionStrategy是指当一个物品没办法整除应该怎么版floor/ceil分别对应向上下取整
+
+- ~~Exclude_PDC是指是否排除PDC物品 默认是true 也就是排除PDC物品不去计算EMC值~~
+>最新版1.1.0已经移除
+
+- only_mc_items是只计算原版我的世界的物品
+
+- ImportantItems是指重要物品的设置 非常不建议设置
+
 
 <QuestionBlock title="要你管?!我就要设置!">
 

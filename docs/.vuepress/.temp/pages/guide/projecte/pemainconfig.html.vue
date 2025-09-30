@@ -53,14 +53,31 @@
 <span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      only_mc_items</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">true</span></span>
 <span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">    ImportantItems</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">:</span></span>
 <span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">      default</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">...</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
-<p>转换桌默认是开启的 这里的<strong>transfer-fee-percentage</strong>是指玩家给玩家转账所需要的手续费 默认是0 也就是免手续费
-recipeConflictStrategy是指多个合成表的情况下应该用什么EMC值 可选lowest highest
-divisionStrategy是指当一个物品没办法整除应该怎么版floor/ceil分别对应向上下取整
-Exclude_PDC是指是否排除PDC物品 默认是true 也就是排除PDC物品不去计算EMC值
-only_mc_items是只计算原版我的世界的物品
-ImportantItems是指重要物品的设置 非常不建议设置</p>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>
+<p>转换桌默认是开启的 这里的<strong>transfer-fee-percentage</strong>是指玩家给玩家转账所需要的手续费 默认是0 也就是免手续费</p>
+</li>
+<li>
+<p>recipeConflictStrategy是指多个合成表的情况下应该用什么EMC值 可选lowest highest</p>
+</li>
+<li>
+<p>divisionStrategy是指当一个物品没办法整除应该怎么版floor/ceil分别对应向上下取整</p>
+</li>
+<li>
+<p><s>Exclude_PDC是指是否排除PDC物品 默认是true 也就是排除PDC物品不去计算EMC值</s></p>
+</li>
+</ul>
+<blockquote>
+<p>最新版1.1.0已经移除</p>
 </blockquote>
+<ul>
+<li>
+<p>only_mc_items是只计算原版我的世界的物品</p>
+</li>
+<li>
+<p>ImportantItems是指重要物品的设置 非常不建议设置</p>
+</li>
+</ul>
 <QuestionBlock title="要你管?!我就要设置!">
 <p>那好吧 在里面你可以看到类似于下面这样的设置</p>
 <div class="language-yaml line-numbers-mode" data-highlighter="shiki" data-ext="yaml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-yaml"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">- </span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">item</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">number</span></span></code></pre>

@@ -1,10 +1,10 @@
 ---
 title: Command Introduction
-description: Plugin documentation for the equivalent exchange plugin
+description: Plugin documentation for ProjectE
 ---
 
-# Here are the plugin's commands. Only a few useful ones will be introduced here.
-> I will explain them based on two permission levels: OP and non-OP.
+# Here are the plugin's commands. Only a few useful ones are introduced here.
+> I will explain them in two permission levels: OP and non-OP.
 
 ## First, the main commands
  - There are two commands you can use:
@@ -13,23 +13,25 @@ description: Plugin documentation for the equivalent exchange plugin
 
 # OP Commands
 ## reload
- - Used to restart the plugin (this will recalculate EMC values).
+ - Used to restart the plugin (will recalculate EMC values).
 ## setemc
- - Used to set the EMC value of an item (the one in your hand).
- - Usage: `command + setemc <EMC value>`
+ - Used to set the EMC value of an item (the item in your hand).
+ - Usage: `(command prefix) + setemc <EMC value>`
 ## noemcitem
- - Used to view items with an EMC of 0.
+ - Used to view items with an EMC of 0 (i.e., items without EMC).
+## pdcitem
+ - Used to view the EMC of all PDC items.
 ## table
- - Allows your transmutation table to learn all items directly.
- - Usage: `command + table learn`
+ - Allows the transmutation table to learn all items directly.
+ - Usage: `(command prefix) + table learn`
 ## lang
  - Used to switch languages.
- - Usage: `command + lang <language file>`
+ - Usage: `(command prefix) + lang <language file>`
 
 # Non-OP Commands
 ## pay
- - Used to pay a player EMC.
- - Usage: `command + pay <player name> <EMC value>`
+ - Used to pay EMC to a player.
+ - Usage: `(command prefix) + pay <player name> <EMC value>`
 ## bag
  - Used to view the list of alchemical bags.
- - Usage: `command + bag + list`
+ - Usage: `(command prefix) + bag + list`

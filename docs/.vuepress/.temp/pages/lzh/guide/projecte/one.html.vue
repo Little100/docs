@@ -22,7 +22,7 @@
 <li>③ 可也</li>
 </ul>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
+<p class="hint-container-title">Tips</p>
 <p>注：Folia亦可用～</p>
 </div>
 </div></template>

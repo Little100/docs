@@ -1,11 +1,16 @@
 <template>
   <details class="question-block" :open="open">
     <summary class="question-title">
-      <span class="question-icon">?</span>
-      {{ title }}
+      <span class="title-content">
+        <span class="question-icon">?</span>
+        {{ title }}
+      </span>
+      <span class="arrow" />
     </summary>
-    <div class="question-content">
-      <slot />
+    <div class="question-content-wrapper">
+      <div class="question-content">
+        <slot />
+      </div>
     </div>
   </details>
 </template>
@@ -28,98 +33,105 @@ export default {
 
 <style lang="scss" scoped>
 .question-block {
-  margin: 20px 0;
-  border: 2px solid #3eaf7c;
+  // --- Theming Variables ---
+  --qb-title-bg: #4a90e2;
+  --qb-title-text: #ffffff;
+  --qb-content-bg: #e9f3fe;
+  --qb-content-text: #2c3e50;
+  --qb-content-border: #cde2f9;
+  --qb-icon-bg: rgba(255, 255, 255, 0.1);
+  --qb-icon-border: rgba(255, 255, 255, 0.3);
+
+  margin: 1rem 0;
+  border: 1px solid var(--qb-title-bg);
   border-radius: 8px;
-  background: white;
   overflow: hidden;
-  
+  transition: border-color 0.3s ease;
+
   &[open] {
-    border-color: #2c8e5f;
+    .question-title .arrow {
+      transform: rotate(135deg);
+    }
+    .question-content-wrapper {
+      max-height: 100vh;
+      transition: max-height 0.35s ease-in;
+    }
   }
 
   .question-title {
-    padding: 15px 20px;
-    background: #3eaf7c;
-    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
     font-weight: 600;
     cursor: pointer;
-    margin: 0;
-    display: block;
-    
-    .question-icon {
-      margin-right: 8px;
-      font-weight: bold;
-      font-size: 1.2em;
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      line-height: 20px;
-      text-align: center;
-      background: rgba(255, 255, 255, 0.2);
-      border-radius: 50%;
-      border: 2px solid rgba(255, 255, 255, 0.3);
+    list-style: none;
+    background-color: var(--qb-title-bg);
+    color: var(--qb-title-text);
+
+    &::-webkit-details-marker {
+      display: none;
     }
-    
-    &:hover {
-      background: #2c8e5f;
+
+    .title-content {
+      display: flex;
+      align-items: center;
+    }
+
+    .question-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      margin-right: 0.75rem;
+      border-radius: 50%;
+      font-weight: 600;
+      font-size: 0.9em;
+      color: var(--qb-title-text);
+      background-color: var(--qb-icon-bg);
+      border: 1px solid var(--qb-icon-border);
+    }
+
+    .arrow {
+      display: inline-block;
+      width: 0.6em;
+      height: 0.6em;
+      border-top: 2px solid var(--qb-title-text);
+      border-right: 2px solid var(--qb-title-text);
+      transform: rotate(45deg);
+      transition: transform 0.3s ease-out;
     }
   }
 
+  .question-content-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+  }
+
   .question-content {
-    padding: 20px;
-    line-height: 1.6;
-    
-    > *:first-child {
+    padding: 1.5rem;
+    line-height: 1.7;
+    color: var(--qb-content-text);
+    background-color: var(--qb-content-bg);
+    border-top: 1px solid var(--qb-content-border);
+
+    ::v-deep > *:first-child {
       margin-top: 0;
     }
-    
-    > *:last-child {
+    ::v-deep > *:last-child {
       margin-bottom: 0;
-    }
-    
-    p {
-      margin: 0 0 15px 0;
-    }
-    
-    pre, code {
-      font-family: Consolas, Monaco, 'Courier New', monospace;
-    }
-    
-    pre {
-      background: #f5f5f5;
-      padding: 15px;
-      border-radius: 4px;
-      overflow-x: auto;
-      margin: 15px 0;
-    }
-    
-    code:not(pre code) {
-      background: #f0f8f0;
-      padding: 2px 6px;
-      border-radius: 3px;
-      color: #2c8e5f;
     }
   }
 }
 
-// 深色模式
-html.dark .question-block {
-  background: #1a1a1a;
-  
-  .question-content {
-    background: #1a1a1a;
-    color: #e0e0e0;
-    
-    pre {
-      background: #2d2d2d;
-      color: #e0e0e0;
-    }
-    
-    code:not(pre code) {
-      background: #2d2d2d;
-      color: #4ade80;
-    }
-  }
+// --- Dark Mode Override ---
+// Use a compound selector to cover common theme implementations
+html.dark .question-block,
+html[data-theme='dark'] .question-block {
+  --qb-content-bg: #1c2a3a;
+  --qb-content-text: #e0e0e0;
+  --qb-content-border: #2a3f5a;
 }
 </style>

@@ -33,7 +33,7 @@ export default defineUserConfig({
       description: 'This is my first VuePress site',
     },
     '/lzh/': {
-      lang: 'zh-CN', // 使用zh-CN以获得更好的支持
+      lang: 'lzh',
       title: 'Little_100之文章',
       description: '此乃吾初作之 VuePress 站点也',
     },
