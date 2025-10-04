@@ -18,6 +18,9 @@ description: Little_100之插件文章
 戒之：此插件现存一弊，玩家可藉此增殖其物。暂撤贤者之石以为合成之方为上。
 :::
 
+## **[Avaritia-Plugin](/lzh/guide/avaritia/)**
+  - 此插件乃仿 Avaritia 模組而生，其物其用，多有還原。
+
 ## **[Super Stick Sword](/lzh/guide/super-stick-sword/)**
   - 类于压缩木剑模组，需玩家手制八重压缩木棍，方可合成超级~~母舰~~木剑。
 

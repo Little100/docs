@@ -18,6 +18,9 @@ This plugin will not be maintained in the short term due to a lack of energy. I'
 Note: This plugin currently has a serious bug that allows players to duplicate items. It is recommended to temporarily remove crafting recipes involving the Philosopher's Stone.
 :::
 
+## **[Avaritia-Plugin](/en/guide/avaritia/)**
+  - A plugin inspired by the Avaritia mod, recreating most of its features and items.
+
 ## **[Super Stick Sword](/en/guide/super-stick-sword/)**
   - Similar to the Compressed Stick Sword mod, players need to manually craft 8 levels of compressed sticks to craft the Super ~~Mothership~~ Stick Sword.
 

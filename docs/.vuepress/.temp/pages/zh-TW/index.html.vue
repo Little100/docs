@@ -15,6 +15,10 @@
 <p class="hint-container-title">警告</p>
 <p>注意：此外掛目前有一個惡性 bug，玩家可以刷物品。建議暫時移除有關賢者之石合成其他物品的合成表。</p>
 </div>
+<h2 id="avaritia-plugin" tabindex="-1"><a class="header-anchor" href="#avaritia-plugin"><span><strong><RouteLink to="/zh-TW/guide/avaritia/">Avaritia-Plugin</RouteLink></strong></span></a></h2>
+<ul>
+<li>一個靈感來源於無盡貪婪模組 (Avaritia) 的插件，還原了絕大部分的功能和物品的喵。</li>
+</ul>
 <h2 id="super-stick-sword" tabindex="-1"><a class="header-anchor" href="#super-stick-sword"><span><strong><RouteLink to="/zh-TW/guide/super-stick-sword/">Super Stick Sword</RouteLink></strong></span></a></h2>
 <ul>
 <li>

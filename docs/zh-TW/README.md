@@ -18,6 +18,9 @@ description: Little_100 的插件文檔
 注意：此外掛目前有一個惡性 bug，玩家可以刷物品。建議暫時移除有關賢者之石合成其他物品的合成表。
 :::
 
+## **[Avaritia-Plugin](/zh-TW/guide/avaritia/)**
+  - 一個靈感來源於無盡貪婪模組 (Avaritia) 的插件，還原了絕大部分的功能和物品的喵。
+
 ## **[Super Stick Sword](/zh-TW/guide/super-stick-sword/)**
   - 類似於壓縮木劍模組，需要玩家手動合成 8 重壓縮木棍才可以合成超級~~母艦~~木劍。
 

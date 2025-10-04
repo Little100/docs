@@ -11,6 +11,9 @@ description: Little_100的插件文档
 ## **[Projecte-Plugin](/guide)**
   - 一个灵感来源于等价交换模组(ProjectE)的插件 还原了绝大部分的功能和物品的喵。
 
+## **[Avaritia-Plugin](/guide/avaritia)**
+  - 一个灵感来源于无尽贪婪模组(Avaritia)的插件 还原了绝大部分的功能和物品的喵。
+
 ## **[Super Stick Sword](/guide/super-stick-sword)**
   - 类似于压缩木剑模组,需要玩家手动合成8重压缩木棍才可以合成超级~~母舰~~木剑。
 

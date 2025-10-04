@@ -7,6 +7,10 @@
 <ul>
 <li>一个灵感来源于等价交换模组(ProjectE)的插件 还原了绝大部分的功能和物品的喵。</li>
 </ul>
+<h2 id="avaritia-plugin" tabindex="-1"><a class="header-anchor" href="#avaritia-plugin"><span><strong><a href="/guide/avaritia">Avaritia-Plugin</a></strong></span></a></h2>
+<ul>
+<li>一个灵感来源于无尽贪婪模组(Avaritia)的插件 还原了绝大部分的功能和物品的喵。</li>
+</ul>
 <h2 id="super-stick-sword" tabindex="-1"><a class="header-anchor" href="#super-stick-sword"><span><strong><a href="/guide/super-stick-sword">Super Stick Sword</a></strong></span></a></h2>
 <ul>
 <li>类似于压缩木剑模组,需要玩家手动合成8重压缩木棍才可以合成超级<s>母舰</s>木剑。</li>

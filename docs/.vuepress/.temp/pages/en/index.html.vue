@@ -15,6 +15,10 @@
 <p class="hint-container-title">Caution</p>
 <p>Note: This plugin currently has a serious bug that allows players to duplicate items. It is recommended to temporarily remove crafting recipes involving the Philosopher's Stone.</p>
 </div>
+<h2 id="avaritia-plugin" tabindex="-1"><a class="header-anchor" href="#avaritia-plugin"><span><strong><RouteLink to="/en/guide/avaritia/">Avaritia-Plugin</RouteLink></strong></span></a></h2>
+<ul>
+<li>A plugin inspired by the Avaritia mod, recreating most of its features and items.</li>
+</ul>
 <h2 id="super-stick-sword" tabindex="-1"><a class="header-anchor" href="#super-stick-sword"><span><strong><RouteLink to="/en/guide/super-stick-sword/">Super Stick Sword</RouteLink></strong></span></a></h2>
 <ul>
 <li>

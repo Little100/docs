@@ -25,6 +25,13 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
+        "title": "Avaritia-Plugin",
+        "slug": "avaritia-plugin",
+        "link": "#avaritia-plugin",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "Super Stick Sword",
         "slug": "super-stick-sword",
         "link": "#super-stick-sword",
@@ -50,6 +57,13 @@ export const SEARCH_INDEX = [
         "title": "Projecte-Plugin",
         "slug": "projecte-plugin",
         "link": "#projecte-plugin",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Avaritia-Plugin",
+        "slug": "avaritia-plugin",
+        "link": "#avaritia-plugin",
         "children": []
       },
       {
@@ -94,6 +108,13 @@ export const SEARCH_INDEX = [
         "title": "Projecte-Plugin",
         "slug": "projecte-plugin",
         "link": "#projecte-plugin",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Avaritia-Plugin",
+        "slug": "avaritia-plugin",
+        "link": "#avaritia-plugin",
         "children": []
       },
       {
@@ -150,6 +171,452 @@ export const SEARCH_INDEX = [
     ],
     "path": "/lzh/guide/",
     "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "物品配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "文件位置",
+        "slug": "文件位置",
+        "link": "#文件位置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "结构",
+        "slug": "结构",
+        "link": "#结构",
+        "children": [
+          {
+            "level": 3,
+            "title": "属性详解",
+            "slug": "属性详解",
+            "link": "#属性详解",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "如何创建新物品",
+        "slug": "如何创建新物品",
+        "link": "#如何创建新物品",
+        "children": []
+      }
+    ],
+    "path": "/guide/avaritia/aci.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "命令配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "主命令",
+        "slug": "主命令",
+        "link": "#主命令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "子命令概览",
+        "slug": "子命令概览",
+        "link": "#子命令概览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "权限节点",
+        "slug": "权限节点",
+        "link": "#权限节点",
+        "children": []
+      }
+    ],
+    "path": "/guide/avaritia/acmd.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "命令使用说明",
+    "headers": [
+      {
+        "level": 2,
+        "title": "/avaritia reload",
+        "slug": "avaritia-reload",
+        "link": "#avaritia-reload",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia give <玩家> <物品ID> [数量]",
+        "slug": "avaritia-give-玩家-物品id-数量",
+        "link": "#avaritia-give-玩家-物品id-数量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia language <语言>",
+        "slug": "avaritia-language-语言",
+        "link": "#avaritia-language-语言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia version",
+        "slug": "avaritia-version",
+        "link": "#avaritia-version",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia nbtdebug",
+        "slug": "avaritia-nbtdebug",
+        "link": "#avaritia-nbtdebug",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia gui",
+        "slug": "avaritia-gui",
+        "link": "#avaritia-gui",
+        "children": []
+      }
+    ],
+    "path": "/guide/avaritia/acmdusage.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "配置文件总览",
+    "headers": [
+      {
+        "level": 2,
+        "title": "主要配置文件",
+        "slug": "主要配置文件",
+        "link": "#主要配置文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "合成相关文件",
+        "slug": "合成相关文件",
+        "link": "#合成相关文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他配置文件",
+        "slug": "其他配置文件",
+        "link": "#其他配置文件",
+        "children": []
+      }
+    ],
+    "path": "/guide/avaritia/aconfig.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "语言文件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "文件位置",
+        "slug": "文件位置",
+        "link": "#文件位置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "如何切换语言",
+        "slug": "如何切换语言",
+        "link": "#如何切换语言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "文件格式",
+        "slug": "文件格式",
+        "link": "#文件格式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "创建新的语言文件",
+        "slug": "创建新的语言文件",
+        "link": "#创建新的语言文件",
+        "children": []
+      }
+    ],
+    "path": "/guide/avaritia/alang.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "主配置文件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "全局设置",
+        "slug": "全局设置",
+        "link": "#全局设置",
+        "children": [
+          {
+            "level": 3,
+            "title": "debug",
+            "slug": "debug",
+            "link": "#debug",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "default_language",
+            "slug": "default-language",
+            "link": "#default-language",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "方块设置",
+        "slug": "方块设置",
+        "link": "#方块设置",
+        "children": [
+          {
+            "level": 3,
+            "title": "allow_place_block",
+            "slug": "allow-place-block",
+            "link": "#allow-place-block",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "compressor_protect",
+            "slug": "compressor-protect",
+            "link": "#compressor-protect",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "终极工作台 (extreme_crafting_table)",
+        "slug": "终极工作台-extreme-crafting-table",
+        "link": "#终极工作台-extreme-crafting-table",
+        "children": [
+          {
+            "level": 3,
+            "title": "debug",
+            "slug": "debug-1",
+            "link": "#debug-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "无尽工具 (infinity_tools)",
+        "slug": "无尽工具-infinity-tools",
+        "link": "#无尽工具-infinity-tools",
+        "children": [
+          {
+            "level": 3,
+            "title": "hammer_break_bedrock",
+            "slug": "hammer-break-bedrock",
+            "link": "#hammer-break-bedrock",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "hammer_cmd",
+            "slug": "hammer-cmd",
+            "link": "#hammer-cmd",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "skullfire_offhand_transfer",
+            "slug": "skullfire-offhand-transfer",
+            "link": "#skullfire-offhand-transfer",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/avaritia/amainconfig.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "OP 物品配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "获取方式",
+        "slug": "获取方式",
+        "link": "#获取方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "物品列表",
+        "slug": "物品列表",
+        "link": "#物品列表",
+        "children": [
+          {
+            "level": 3,
+            "title": "示例",
+            "slug": "示例",
+            "link": "#示例",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/avaritia/aopi.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "合成表配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 原版工作台合成 (recipe.yml)",
+        "slug": "_1-原版工作台合成-recipe-yml",
+        "link": "#_1-原版工作台合成-recipe-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "结构",
+            "slug": "结构",
+            "link": "#结构",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "示例",
+            "slug": "示例",
+            "link": "#示例",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 终极工作台合成 (extreme_crafting_table.yml)",
+        "slug": "_2-终极工作台合成-extreme-crafting-table-yml",
+        "link": "#_2-终极工作台合成-extreme-crafting-table-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "结构",
+            "slug": "结构-1",
+            "link": "#结构-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "示例",
+            "slug": "示例-1",
+            "link": "#示例-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 中子态素收集器 (neutron_collector.yml)",
+        "slug": "_3-中子态素收集器-neutron-collector-yml",
+        "link": "#_3-中子态素收集器-neutron-collector-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "结构",
+            "slug": "结构-2",
+            "link": "#结构-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "默认配置",
+            "slug": "默认配置",
+            "link": "#默认配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. 中子态素压缩机 (neutronium_compressor.yml)",
+        "slug": "_4-中子态素压缩机-neutronium-compressor-yml",
+        "link": "#_4-中子态素压缩机-neutronium-compressor-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "结构",
+            "slug": "结构-3",
+            "link": "#结构-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "示例",
+            "slug": "示例-2",
+            "link": "#示例-2",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/avaritia/arecipe.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "安装指南",
+    "headers": [],
+    "path": "/guide/avaritia/one.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Avaritia Plugin",
+    "headers": [
+      {
+        "level": 2,
+        "title": "🚀 快速开始",
+        "slug": "🚀-快速开始",
+        "link": "#🚀-快速开始",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "⚙️ 配置文档",
+        "slug": "⚙️-配置文档",
+        "link": "#⚙️-配置文档",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 使用指南",
+        "slug": "🎮-使用指南",
+        "link": "#🎮-使用指南",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 需要帮助？",
+        "slug": "📞-需要帮助",
+        "link": "#📞-需要帮助",
+        "children": []
+      }
+    ],
+    "path": "/guide/avaritia/",
+    "pathLocale": "/",
     "extraFields": []
   },
   {
@@ -487,126 +954,471 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Super Farming",
+    "title": "等價交換插件版",
     "headers": [
       {
         "level": 2,
-        "title": "🌾 插件介绍",
-        "slug": "🌾-插件介绍",
-        "link": "#🌾-插件介绍",
+        "title": "點擊左下角觀看大結局",
+        "slug": "點擊左下角觀看大結局",
+        "link": "#點擊左下角觀看大結局",
         "children": []
       },
       {
         "level": 2,
-        "title": "📥 下载地址",
-        "slug": "📥-下载地址",
-        "link": "#📥-下载地址",
+        "title": "從左側點擊快速開始查看如何安裝此插件",
+        "slug": "從左側點擊快速開始查看如何安裝此插件",
+        "link": "#從左側點擊快速開始查看如何安裝此插件",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "Item Configuration",
+    "headers": [
+      {
+        "level": 2,
+        "title": "File Location",
+        "slug": "file-location",
+        "link": "#file-location",
         "children": []
       },
       {
         "level": 2,
-        "title": "📚 文档目录",
-        "slug": "📚-文档目录",
-        "link": "#📚-文档目录",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "🎮 主要功能",
-        "slug": "🎮-主要功能",
-        "link": "#🎮-主要功能",
+        "title": "Structure",
+        "slug": "structure",
+        "link": "#structure",
         "children": [
           {
             "level": 3,
-            "title": "手动使用",
-            "slug": "手动使用",
-            "link": "#手动使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "自动使用",
-            "slug": "自动使用",
-            "link": "#自动使用",
+            "title": "Property Details",
+            "slug": "property-details",
+            "link": "#property-details",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "📞 需要帮助？",
-        "slug": "📞-需要帮助",
-        "link": "#📞-需要帮助",
+        "title": "How to Create a New Item",
+        "slug": "how-to-create-a-new-item",
+        "link": "#how-to-create-a-new-item",
         "children": []
       }
     ],
-    "path": "/guide/super-farming/",
-    "pathLocale": "/",
+    "path": "/en/guide/avaritia/aci.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "命令介绍",
+    "title": "Command Config",
     "headers": [
       {
         "level": 2,
-        "title": "你可以使用",
-        "slug": "你可以使用",
-        "link": "#你可以使用",
+        "title": "Main Command",
+        "slug": "main-command",
+        "link": "#main-command",
         "children": []
       },
       {
         "level": 2,
-        "title": "功能",
-        "slug": "功能",
-        "link": "#功能",
+        "title": "Sub-command Overview",
+        "slug": "sub-command-overview",
+        "link": "#sub-command-overview",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Permission Nodes",
+        "slug": "permission-nodes",
+        "link": "#permission-nodes",
         "children": []
       }
     ],
-    "path": "/guide/super-farming/super-cmd.html",
-    "pathLocale": "/",
+    "path": "/en/guide/avaritia/acmd.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "超级农事",
+    "title": "Command Usage",
     "headers": [
       {
         "level": 2,
-        "title": "下载",
-        "slug": "下载",
-        "link": "#下载",
+        "title": "/avaritia reload",
+        "slug": "avaritia-reload",
+        "link": "#avaritia-reload",
         "children": []
       },
       {
         "level": 2,
-        "title": "点击左下角观看大结局",
-        "slug": "点击左下角观看大结局",
-        "link": "#点击左下角观看大结局",
+        "title": "/avaritia give <player> <item_id> [amount]",
+        "slug": "avaritia-give-player-item-id-amount",
+        "link": "#avaritia-give-player-item-id-amount",
         "children": []
       },
       {
         "level": 2,
-        "title": "从左侧点击快速开始查看如何安装此插件",
-        "slug": "从左侧点击快速开始查看如何安装此插件",
-        "link": "#从左侧点击快速开始查看如何安装此插件",
+        "title": "/avaritia language <language>",
+        "slug": "avaritia-language-language",
+        "link": "#avaritia-language-language",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia version",
+        "slug": "avaritia-version",
+        "link": "#avaritia-version",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia nbtdebug",
+        "slug": "avaritia-nbtdebug",
+        "link": "#avaritia-nbtdebug",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia gui",
+        "slug": "avaritia-gui",
+        "link": "#avaritia-gui",
         "children": []
       }
     ],
-    "path": "/guide/super-farming/super-farming.html",
-    "pathLocale": "/",
+    "path": "/en/guide/avaritia/acmdusage.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "用法",
-    "headers": [],
-    "path": "/guide/super-farming/super-usage.html",
-    "pathLocale": "/",
+    "title": "Configuration Overview",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Main Configuration File",
+        "slug": "main-configuration-file",
+        "link": "#main-configuration-file",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Recipe-Related Files",
+        "slug": "recipe-related-files",
+        "link": "#recipe-related-files",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Other Configuration Files",
+        "slug": "other-configuration-files",
+        "link": "#other-configuration-files",
+        "children": []
+      }
+    ],
+    "path": "/en/guide/avaritia/aconfig.html",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
-    "title": "配置文件",
+    "title": "Language Files",
+    "headers": [
+      {
+        "level": 2,
+        "title": "File Location",
+        "slug": "file-location",
+        "link": "#file-location",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "How to Switch Languages",
+        "slug": "how-to-switch-languages",
+        "link": "#how-to-switch-languages",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "File Format",
+        "slug": "file-format",
+        "link": "#file-format",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Creating a New Language File",
+        "slug": "creating-a-new-language-file",
+        "link": "#creating-a-new-language-file",
+        "children": []
+      }
+    ],
+    "path": "/en/guide/avaritia/alang.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Main Config File",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Global Settings",
+        "slug": "global-settings",
+        "link": "#global-settings",
+        "children": [
+          {
+            "level": 3,
+            "title": "debug",
+            "slug": "debug",
+            "link": "#debug",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "default_language",
+            "slug": "default-language",
+            "link": "#default-language",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Block Settings",
+        "slug": "block-settings",
+        "link": "#block-settings",
+        "children": [
+          {
+            "level": 3,
+            "title": "allow_place_block",
+            "slug": "allow-place-block",
+            "link": "#allow-place-block",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "compressor_protect",
+            "slug": "compressor-protect",
+            "link": "#compressor-protect",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Extreme Crafting Table (extreme_crafting_table)",
+        "slug": "extreme-crafting-table-extreme-crafting-table",
+        "link": "#extreme-crafting-table-extreme-crafting-table",
+        "children": [
+          {
+            "level": 3,
+            "title": "debug",
+            "slug": "debug-1",
+            "link": "#debug-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Infinity Tools (infinity_tools)",
+        "slug": "infinity-tools-infinity-tools",
+        "link": "#infinity-tools-infinity-tools",
+        "children": [
+          {
+            "level": 3,
+            "title": "hammer_break_bedrock",
+            "slug": "hammer-break-bedrock",
+            "link": "#hammer-break-bedrock",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "hammer_cmd",
+            "slug": "hammer-cmd",
+            "link": "#hammer-cmd",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "skullfire_offhand_transfer",
+            "slug": "skullfire-offhand-transfer",
+            "link": "#skullfire-offhand-transfer",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/en/guide/avaritia/amainconfig.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "OP Item Configuration",
+    "headers": [
+      {
+        "level": 2,
+        "title": "How to Obtain",
+        "slug": "how-to-obtain",
+        "link": "#how-to-obtain",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Item List",
+        "slug": "item-list",
+        "link": "#item-list",
+        "children": [
+          {
+            "level": 3,
+            "title": "Example",
+            "slug": "example",
+            "link": "#example",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/en/guide/avaritia/aopi.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Recipe Configuration",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. Vanilla Workbench Recipes (recipe.yml)",
+        "slug": "_1-vanilla-workbench-recipes-recipe-yml",
+        "link": "#_1-vanilla-workbench-recipes-recipe-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "Structure",
+            "slug": "structure",
+            "link": "#structure",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Examples",
+            "slug": "examples",
+            "link": "#examples",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. Extreme Crafting Table Recipes (extreme_crafting_table.yml)",
+        "slug": "_2-extreme-crafting-table-recipes-extreme-crafting-table-yml",
+        "link": "#_2-extreme-crafting-table-recipes-extreme-crafting-table-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "Structure",
+            "slug": "structure-1",
+            "link": "#structure-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Example",
+            "slug": "example",
+            "link": "#example",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. Neutron Collector (neutron_collector.yml)",
+        "slug": "_3-neutron-collector-neutron-collector-yml",
+        "link": "#_3-neutron-collector-neutron-collector-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "Structure",
+            "slug": "structure-2",
+            "link": "#structure-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Default Configuration",
+            "slug": "default-configuration",
+            "link": "#default-configuration",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Neutronium Compressor (neutronium_compressor.yml)",
+        "slug": "_4-neutronium-compressor-neutronium-compressor-yml",
+        "link": "#_4-neutronium-compressor-neutronium-compressor-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "Structure",
+            "slug": "structure-3",
+            "link": "#structure-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Example",
+            "slug": "example-1",
+            "link": "#example-1",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/en/guide/avaritia/arecipe.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Installation Guide",
     "headers": [],
-    "path": "/guide/super-farming/superconfig.html",
-    "pathLocale": "/",
+    "path": "/en/guide/avaritia/one.html",
+    "pathLocale": "/en/",
+    "extraFields": []
+  },
+  {
+    "title": "Avaritia Plugin",
+    "headers": [
+      {
+        "level": 2,
+        "title": "🚀 Quick Start",
+        "slug": "🚀-quick-start",
+        "link": "#🚀-quick-start",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "⚙️ Configuration Docs",
+        "slug": "⚙️-configuration-docs",
+        "link": "#⚙️-configuration-docs",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 Usage Guide",
+        "slug": "🎮-usage-guide",
+        "link": "#🎮-usage-guide",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 Need Help?",
+        "slug": "📞-need-help",
+        "link": "#📞-need-help",
+        "children": []
+      }
+    ],
+    "path": "/en/guide/avaritia/",
+    "pathLocale": "/en/",
     "extraFields": []
   },
   {
@@ -944,6 +1756,223 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Super Stick Sword",
+    "headers": [
+      {
+        "level": 2,
+        "title": "⚔️ 插件特色",
+        "slug": "⚔️-插件特色",
+        "link": "#⚔️-插件特色",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📥 下载地址",
+        "slug": "📥-下载地址",
+        "link": "#📥-下载地址",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📚 文档目录",
+        "slug": "📚-文档目录",
+        "link": "#📚-文档目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 游戏玩法",
+        "slug": "🎮-游戏玩法",
+        "link": "#🎮-游戏玩法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 需要帮助？",
+        "slug": "📞-需要帮助",
+        "link": "#📞-需要帮助",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-stick-sword/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "合成配方",
+    "headers": [
+      {
+        "level": 2,
+        "title": "9个普通木棍合成压缩木棍",
+        "slug": "_9个普通木棍合成压缩木棍",
+        "link": "#_9个普通木棍合成压缩木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9个压缩木棍合成二重压缩木棍",
+        "slug": "_9个压缩木棍合成二重压缩木棍",
+        "link": "#_9个压缩木棍合成二重压缩木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一直到八重压缩木棍后就可以用以下方式合成",
+        "slug": "一直到八重压缩木棍后就可以用以下方式合成",
+        "link": "#一直到八重压缩木棍后就可以用以下方式合成",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-stick-sword/super-stick-sword-features.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "超级木剑",
+    "headers": [
+      {
+        "level": 2,
+        "title": "最后的压缩木剑100点攻击力(50♥)",
+        "slug": "最后的压缩木剑100点攻击力-50♥",
+        "link": "#最后的压缩木剑100点攻击力-50♥",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "下载",
+        "slug": "下载",
+        "link": "#下载",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-stick-sword/super-stick-sword.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Super Farming",
+    "headers": [
+      {
+        "level": 2,
+        "title": "🌾 插件介绍",
+        "slug": "🌾-插件介绍",
+        "link": "#🌾-插件介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📥 下载地址",
+        "slug": "📥-下载地址",
+        "link": "#📥-下载地址",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📚 文档目录",
+        "slug": "📚-文档目录",
+        "link": "#📚-文档目录",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 主要功能",
+        "slug": "🎮-主要功能",
+        "link": "#🎮-主要功能",
+        "children": [
+          {
+            "level": 3,
+            "title": "手动使用",
+            "slug": "手动使用",
+            "link": "#手动使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自动使用",
+            "slug": "自动使用",
+            "link": "#自动使用",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "📞 需要帮助？",
+        "slug": "📞-需要帮助",
+        "link": "#📞-需要帮助",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-farming/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "命令介绍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "你可以使用",
+        "slug": "你可以使用",
+        "link": "#你可以使用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "功能",
+        "slug": "功能",
+        "link": "#功能",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-farming/super-cmd.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "超级农事",
+    "headers": [
+      {
+        "level": 2,
+        "title": "下载",
+        "slug": "下载",
+        "link": "#下载",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "点击左下角观看大结局",
+        "slug": "点击左下角观看大结局",
+        "link": "#点击左下角观看大结局",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "从左侧点击快速开始查看如何安装此插件",
+        "slug": "从左侧点击快速开始查看如何安装此插件",
+        "link": "#从左侧点击快速开始查看如何安装此插件",
+        "children": []
+      }
+    ],
+    "path": "/guide/super-farming/super-farming.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "用法",
+    "headers": [],
+    "path": "/guide/super-farming/super-usage.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "配置文件",
+    "headers": [],
+    "path": "/guide/super-farming/superconfig.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Super Farming",
     "headers": [
       {
@@ -1168,122 +2197,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "等價交換插件版",
-    "headers": [
-      {
-        "level": 2,
-        "title": "點擊左下角觀看大結局",
-        "slug": "點擊左下角觀看大結局",
-        "link": "#點擊左下角觀看大結局",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "從左側點擊快速開始查看如何安裝此插件",
-        "slug": "從左側點擊快速開始查看如何安裝此插件",
-        "link": "#從左側點擊快速開始查看如何安裝此插件",
-        "children": []
-      }
-    ],
-    "path": "/zh-TW/guide/",
-    "pathLocale": "/zh-TW/",
-    "extraFields": []
-  },
-  {
-    "title": "Super Stick Sword",
-    "headers": [
-      {
-        "level": 2,
-        "title": "⚔️ 插件特色",
-        "slug": "⚔️-插件特色",
-        "link": "#⚔️-插件特色",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📥 下载地址",
-        "slug": "📥-下载地址",
-        "link": "#📥-下载地址",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📚 文档目录",
-        "slug": "📚-文档目录",
-        "link": "#📚-文档目录",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "🎮 游戏玩法",
-        "slug": "🎮-游戏玩法",
-        "link": "#🎮-游戏玩法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "📞 需要帮助？",
-        "slug": "📞-需要帮助",
-        "link": "#📞-需要帮助",
-        "children": []
-      }
-    ],
-    "path": "/guide/super-stick-sword/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "合成配方",
-    "headers": [
-      {
-        "level": 2,
-        "title": "9个普通木棍合成压缩木棍",
-        "slug": "_9个普通木棍合成压缩木棍",
-        "link": "#_9个普通木棍合成压缩木棍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9个压缩木棍合成二重压缩木棍",
-        "slug": "_9个压缩木棍合成二重压缩木棍",
-        "link": "#_9个压缩木棍合成二重压缩木棍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "一直到八重压缩木棍后就可以用以下方式合成",
-        "slug": "一直到八重压缩木棍后就可以用以下方式合成",
-        "link": "#一直到八重压缩木棍后就可以用以下方式合成",
-        "children": []
-      }
-    ],
-    "path": "/guide/super-stick-sword/super-stick-sword-features.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "超级木剑",
-    "headers": [
-      {
-        "level": 2,
-        "title": "最后的压缩木剑100点攻击力(50♥)",
-        "slug": "最后的压缩木剑100点攻击力-50♥",
-        "link": "#最后的压缩木剑100点攻击力-50♥",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "下载",
-        "slug": "下载",
-        "link": "#下载",
-        "children": []
-      }
-    ],
-    "path": "/guide/super-stick-sword/super-stick-sword.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "号令之介",
     "headers": [
       {
@@ -1345,6 +2258,503 @@ export const SEARCH_INDEX = [
     "title": "策之文件",
     "headers": [],
     "path": "/lzh/guide/super-farming/superconfig.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "合成之方",
+    "headers": [
+      {
+        "level": 2,
+        "title": "九普通木棍，合为一压缩木棍",
+        "slug": "九普通木棍-合为一压缩木棍",
+        "link": "#九普通木棍-合为一压缩木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九压缩木棍，合为一二重压缩木棍",
+        "slug": "九压缩木棍-合为一二重压缩木棍",
+        "link": "#九压缩木棍-合为一二重压缩木棍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "至八重压缩木棍，则可以下法合成之",
+        "slug": "至八重压缩木棍-则可以下法合成之",
+        "link": "#至八重压缩木棍-则可以下法合成之",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/super-stick-sword/super-stick-sword-features.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "超级木剑",
+    "headers": [
+      {
+        "level": 2,
+        "title": "最终压缩木剑之力百(五十♥)",
+        "slug": "最终压缩木剑之力百-五十♥",
+        "link": "#最终压缩木剑之力百-五十♥",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "可循下述之径取之",
+        "slug": "可循下述之径取之",
+        "link": "#可循下述之径取之",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/super-stick-sword/super-stick-sword.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "器物之策",
+    "headers": [
+      {
+        "level": 2,
+        "title": "檔之所在",
+        "slug": "檔之所在",
+        "link": "#檔之所在",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "格式",
+        "slug": "格式",
+        "link": "#格式",
+        "children": [
+          {
+            "level": 3,
+            "title": "屬性詳解",
+            "slug": "屬性詳解",
+            "link": "#屬性詳解",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "如何創新物",
+        "slug": "如何創新物",
+        "link": "#如何創新物",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/avaritia/aci.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "號令之策",
+    "headers": [
+      {
+        "level": 2,
+        "title": "主令",
+        "slug": "主令",
+        "link": "#主令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "子令一覽",
+        "slug": "子令一覽",
+        "link": "#子令一覽",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "權限",
+        "slug": "權限",
+        "link": "#權限",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/avaritia/acmd.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "號令之用",
+    "headers": [
+      {
+        "level": 2,
+        "title": "/avaritia reload",
+        "slug": "avaritia-reload",
+        "link": "#avaritia-reload",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia give <玩家> <物品ID> [數量]",
+        "slug": "avaritia-give-玩家-物品id-數量",
+        "link": "#avaritia-give-玩家-物品id-數量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia language <語言>",
+        "slug": "avaritia-language-語言",
+        "link": "#avaritia-language-語言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia version",
+        "slug": "avaritia-version",
+        "link": "#avaritia-version",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia nbtdebug",
+        "slug": "avaritia-nbtdebug",
+        "link": "#avaritia-nbtdebug",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia gui",
+        "slug": "avaritia-gui",
+        "link": "#avaritia-gui",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/avaritia/acmdusage.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "策之總覽",
+    "headers": [
+      {
+        "level": 2,
+        "title": "要策",
+        "slug": "要策",
+        "link": "#要策",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "合成相關之檔",
+        "slug": "合成相關之檔",
+        "link": "#合成相關之檔",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其餘之策",
+        "slug": "其餘之策",
+        "link": "#其餘之策",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/avaritia/aconfig.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "言辭之檔",
+    "headers": [
+      {
+        "level": 2,
+        "title": "檔之所在",
+        "slug": "檔之所在",
+        "link": "#檔之所在",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "如何易言",
+        "slug": "如何易言",
+        "link": "#如何易言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "檔之格式",
+        "slug": "檔之格式",
+        "link": "#檔之格式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "創新言辭檔",
+        "slug": "創新言辭檔",
+        "link": "#創新言辭檔",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/avaritia/alang.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "要策",
+    "headers": [
+      {
+        "level": 2,
+        "title": "天下之策",
+        "slug": "天下之策",
+        "link": "#天下之策",
+        "children": [
+          {
+            "level": 3,
+            "title": "debug",
+            "slug": "debug",
+            "link": "#debug",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "default_language",
+            "slug": "default-language",
+            "link": "#default-language",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "方塊之策",
+        "slug": "方塊之策",
+        "link": "#方塊之策",
+        "children": [
+          {
+            "level": 3,
+            "title": "allow_place_block",
+            "slug": "allow-place-block",
+            "link": "#allow-place-block",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "compressor_protect",
+            "slug": "compressor-protect",
+            "link": "#compressor-protect",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "終極臺 (extreme_crafting_table)",
+        "slug": "終極臺-extreme-crafting-table",
+        "link": "#終極臺-extreme-crafting-table",
+        "children": [
+          {
+            "level": 3,
+            "title": "debug",
+            "slug": "debug-1",
+            "link": "#debug-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "無盡器 (infinity_tools)",
+        "slug": "無盡器-infinity-tools",
+        "link": "#無盡器-infinity-tools",
+        "children": [
+          {
+            "level": 3,
+            "title": "hammer_break_bedrock",
+            "slug": "hammer-break-bedrock",
+            "link": "#hammer-break-bedrock",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "hammer_cmd",
+            "slug": "hammer-cmd",
+            "link": "#hammer-cmd",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "skullfire_offhand_transfer",
+            "slug": "skullfire-offhand-transfer",
+            "link": "#skullfire-offhand-transfer",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/lzh/guide/avaritia/amainconfig.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "權者之物策",
+    "headers": [
+      {
+        "level": 2,
+        "title": "如何得之",
+        "slug": "如何得之",
+        "link": "#如何得之",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "物之列表",
+        "slug": "物之列表",
+        "link": "#物之列表",
+        "children": [
+          {
+            "level": 3,
+            "title": "範例",
+            "slug": "範例",
+            "link": "#範例",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/lzh/guide/avaritia/aopi.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "合成之法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、常臺之合 (recipe.yml)",
+        "slug": "一、常臺之合-recipe-yml",
+        "link": "#一、常臺之合-recipe-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "格式",
+            "slug": "格式",
+            "link": "#格式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "範例",
+            "slug": "範例",
+            "link": "#範例",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、終極臺之合 (extreme_crafting_table.yml)",
+        "slug": "二、終極臺之合-extreme-crafting-table-yml",
+        "link": "#二、終極臺之合-extreme-crafting-table-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "格式",
+            "slug": "格式-1",
+            "link": "#格式-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "範例",
+            "slug": "範例-1",
+            "link": "#範例-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三、中子態素收集器 (neutron_collector.yml)",
+        "slug": "三、中子態素收集器-neutron-collector-yml",
+        "link": "#三、中子態素收集器-neutron-collector-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "格式",
+            "slug": "格式-2",
+            "link": "#格式-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "常策",
+            "slug": "常策",
+            "link": "#常策",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四、中子態素壓縮機 (neutronium_compressor.yml)",
+        "slug": "四、中子態素壓縮機-neutronium-compressor-yml",
+        "link": "#四、中子態素壓縮機-neutronium-compressor-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "格式",
+            "slug": "格式-3",
+            "link": "#格式-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "範例",
+            "slug": "範例-2",
+            "link": "#範例-2",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/lzh/guide/avaritia/arecipe.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "置之指南",
+    "headers": [],
+    "path": "/lzh/guide/avaritia/one.html",
+    "pathLocale": "/lzh/",
+    "extraFields": []
+  },
+  {
+    "title": "Avaritia 插件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "🚀 始之速覽",
+        "slug": "🚀-始之速覽",
+        "link": "#🚀-始之速覽",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "⚙️ 策之章疏",
+        "slug": "⚙️-策之章疏",
+        "link": "#⚙️-策之章疏",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 用之指南",
+        "slug": "🎮-用之指南",
+        "link": "#🎮-用之指南",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 有問必答",
+        "slug": "📞-有問必答",
+        "link": "#📞-有問必答",
+        "children": []
+      }
+    ],
+    "path": "/lzh/guide/avaritia/",
     "pathLocale": "/lzh/",
     "extraFields": []
   },
@@ -1676,54 +3086,449 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "合成之方",
+    "title": "物品設定",
     "headers": [
       {
         "level": 2,
-        "title": "九普通木棍，合为一压缩木棍",
-        "slug": "九普通木棍-合为一压缩木棍",
-        "link": "#九普通木棍-合为一压缩木棍",
+        "title": "檔案位置",
+        "slug": "檔案位置",
+        "link": "#檔案位置",
         "children": []
       },
       {
         "level": 2,
-        "title": "九压缩木棍，合为一二重压缩木棍",
-        "slug": "九压缩木棍-合为一二重压缩木棍",
-        "link": "#九压缩木棍-合为一二重压缩木棍",
-        "children": []
+        "title": "結構",
+        "slug": "結構",
+        "link": "#結構",
+        "children": [
+          {
+            "level": 3,
+            "title": "屬性詳解",
+            "slug": "屬性詳解",
+            "link": "#屬性詳解",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
-        "title": "至八重压缩木棍，则可以下法合成之",
-        "slug": "至八重压缩木棍-则可以下法合成之",
-        "link": "#至八重压缩木棍-则可以下法合成之",
+        "title": "如何建立新物品",
+        "slug": "如何建立新物品",
+        "link": "#如何建立新物品",
         "children": []
       }
     ],
-    "path": "/lzh/guide/super-stick-sword/super-stick-sword-features.html",
-    "pathLocale": "/lzh/",
+    "path": "/zh-TW/guide/avaritia/aci.html",
+    "pathLocale": "/zh-TW/",
     "extraFields": []
   },
   {
-    "title": "超级木剑",
+    "title": "指令設定",
     "headers": [
       {
         "level": 2,
-        "title": "最终压缩木剑之力百(五十♥)",
-        "slug": "最终压缩木剑之力百-五十♥",
-        "link": "#最终压缩木剑之力百-五十♥",
+        "title": "主指令",
+        "slug": "主指令",
+        "link": "#主指令",
         "children": []
       },
       {
         "level": 2,
-        "title": "可循下述之径取之",
-        "slug": "可循下述之径取之",
-        "link": "#可循下述之径取之",
+        "title": "子指令總覽",
+        "slug": "子指令總覽",
+        "link": "#子指令總覽",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "權限節點",
+        "slug": "權限節點",
+        "link": "#權限節點",
         "children": []
       }
     ],
-    "path": "/lzh/guide/super-stick-sword/super-stick-sword.html",
-    "pathLocale": "/lzh/",
+    "path": "/zh-TW/guide/avaritia/acmd.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "指令使用說明",
+    "headers": [
+      {
+        "level": 2,
+        "title": "/avaritia reload",
+        "slug": "avaritia-reload",
+        "link": "#avaritia-reload",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia give <玩家> <物品ID> [數量]",
+        "slug": "avaritia-give-玩家-物品id-數量",
+        "link": "#avaritia-give-玩家-物品id-數量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia language <語言>",
+        "slug": "avaritia-language-語言",
+        "link": "#avaritia-language-語言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia version",
+        "slug": "avaritia-version",
+        "link": "#avaritia-version",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia nbtdebug",
+        "slug": "avaritia-nbtdebug",
+        "link": "#avaritia-nbtdebug",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "/avaritia gui",
+        "slug": "avaritia-gui",
+        "link": "#avaritia-gui",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/avaritia/acmdusage.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "設定檔總覽",
+    "headers": [
+      {
+        "level": 2,
+        "title": "主要設定檔",
+        "slug": "主要設定檔",
+        "link": "#主要設定檔",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "合成相關檔案",
+        "slug": "合成相關檔案",
+        "link": "#合成相關檔案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他設定檔",
+        "slug": "其他設定檔",
+        "link": "#其他設定檔",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/avaritia/aconfig.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "語言檔案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "檔案位置",
+        "slug": "檔案位置",
+        "link": "#檔案位置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "如何切換語言",
+        "slug": "如何切換語言",
+        "link": "#如何切換語言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "檔案格式",
+        "slug": "檔案格式",
+        "link": "#檔案格式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "建立新的語言檔案",
+        "slug": "建立新的語言檔案",
+        "link": "#建立新的語言檔案",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/avaritia/alang.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "主設定檔",
+    "headers": [
+      {
+        "level": 2,
+        "title": "全域設定",
+        "slug": "全域設定",
+        "link": "#全域設定",
+        "children": [
+          {
+            "level": 3,
+            "title": "debug",
+            "slug": "debug",
+            "link": "#debug",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "default_language",
+            "slug": "default-language",
+            "link": "#default-language",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "方塊設定",
+        "slug": "方塊設定",
+        "link": "#方塊設定",
+        "children": [
+          {
+            "level": 3,
+            "title": "allow_place_block",
+            "slug": "allow-place-block",
+            "link": "#allow-place-block",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "compressor_protect",
+            "slug": "compressor-protect",
+            "link": "#compressor-protect",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "終極工作台 (extreme_crafting_table)",
+        "slug": "終極工作台-extreme-crafting-table",
+        "link": "#終極工作台-extreme-crafting-table",
+        "children": [
+          {
+            "level": 3,
+            "title": "debug",
+            "slug": "debug-1",
+            "link": "#debug-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "無盡工具 (infinity_tools)",
+        "slug": "無盡工具-infinity-tools",
+        "link": "#無盡工具-infinity-tools",
+        "children": [
+          {
+            "level": 3,
+            "title": "hammer_break_bedrock",
+            "slug": "hammer-break-bedrock",
+            "link": "#hammer-break-bedrock",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "hammer_cmd",
+            "slug": "hammer-cmd",
+            "link": "#hammer-cmd",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "skullfire_offhand_transfer",
+            "slug": "skullfire-offhand-transfer",
+            "link": "#skullfire-offhand-transfer",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh-TW/guide/avaritia/amainconfig.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "OP 物品設定",
+    "headers": [
+      {
+        "level": 2,
+        "title": "獲取方式",
+        "slug": "獲取方式",
+        "link": "#獲取方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "物品列表",
+        "slug": "物品列表",
+        "link": "#物品列表",
+        "children": [
+          {
+            "level": 3,
+            "title": "範例",
+            "slug": "範例",
+            "link": "#範例",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh-TW/guide/avaritia/aopi.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "合成表設定",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1. 原版工作台合成 (recipe.yml)",
+        "slug": "_1-原版工作台合成-recipe-yml",
+        "link": "#_1-原版工作台合成-recipe-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "結構",
+            "slug": "結構",
+            "link": "#結構",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "範例",
+            "slug": "範例",
+            "link": "#範例",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 終極工作台合成 (extreme_crafting_table.yml)",
+        "slug": "_2-終極工作台合成-extreme-crafting-table-yml",
+        "link": "#_2-終極工作台合成-extreme-crafting-table-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "結構",
+            "slug": "結構-1",
+            "link": "#結構-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "範例",
+            "slug": "範例-1",
+            "link": "#範例-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "3. 中子態素收集器 (neutron_collector.yml)",
+        "slug": "_3-中子態素收集器-neutron-collector-yml",
+        "link": "#_3-中子態素收集器-neutron-collector-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "結構",
+            "slug": "結構-2",
+            "link": "#結構-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "預設設定",
+            "slug": "預設設定",
+            "link": "#預設設定",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. 中子態素壓縮機 (neutronium_compressor.yml)",
+        "slug": "_4-中子態素壓縮機-neutronium-compressor-yml",
+        "link": "#_4-中子態素壓縮機-neutronium-compressor-yml",
+        "children": [
+          {
+            "level": 3,
+            "title": "結構",
+            "slug": "結構-3",
+            "link": "#結構-3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "範例",
+            "slug": "範例-2",
+            "link": "#範例-2",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh-TW/guide/avaritia/arecipe.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "安裝指南",
+    "headers": [],
+    "path": "/zh-TW/guide/avaritia/one.html",
+    "pathLocale": "/zh-TW/",
+    "extraFields": []
+  },
+  {
+    "title": "Avaritia 插件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "🚀 快速開始",
+        "slug": "🚀-快速開始",
+        "link": "#🚀-快速開始",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "⚙️ 設定文檔",
+        "slug": "⚙️-設定文檔",
+        "link": "#⚙️-設定文檔",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "🎮 使用指南",
+        "slug": "🎮-使用指南",
+        "link": "#🎮-使用指南",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "📞 需要幫助？",
+        "slug": "📞-需要幫助",
+        "link": "#📞-需要幫助",
+        "children": []
+      }
+    ],
+    "path": "/zh-TW/guide/avaritia/",
+    "pathLocale": "/zh-TW/",
     "extraFields": []
   },
   {

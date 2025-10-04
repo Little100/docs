@@ -57,9 +57,17 @@ export default defineUserConfig({
         // 假设这里的侧边栏和导航栏配置是正确的，因此予以保留
         navbar: [
           { text: '首页', link: '/' },
-          { text: '指南', link: '/guide/' },
-          { 
-            text: '🔤 字体选择', 
+          {
+            text: '插件指南',
+            children: [
+              { text: 'ProjectE', link: '/guide/projecte/' },
+              { text: 'Avaritia', link: '/guide/avaritia/' },
+              { text: 'Super Stick Sword', link: '/guide/super-stick-sword/' },
+              { text: 'Super Farming', link: '/guide/super-farming/' },
+            ]
+          },
+          {
+            text: '🔤 字体选择',
             children: [
               { text: '🎮 Minecraft AE', link: 'javascript:void(0)', rel: 'font-minecraft' },
               { text: '💻 系统默认', link: 'javascript:void(0)', rel: 'font-system' },
@@ -101,14 +109,36 @@ export default defineUserConfig({
               '/guide/projecte/credits',
             ],
           },
-          {
-            text: 'Super Stick Sword',
-            collapsible: true,
-            children: [
-              '/guide/super-stick-sword/super-stick-sword',
-              '/guide/super-stick-sword/super-stick-sword-features',
-            ],
-          },
+         {
+           text: 'Avaritia-Plugin (无尽贪婪插件)',
+           collapsible: true,
+           children: [
+             '/guide/avaritia/',
+             '/guide/avaritia/one',
+             {
+               text: 'Avaritia 配置',
+               collapsible: true,
+               children: [
+                 '/guide/avaritia/aconfig',
+                 '/guide/avaritia/arecipe',
+                 '/guide/avaritia/amainconfig',
+                 '/guide/avaritia/alang',
+                 '/guide/avaritia/acmd',
+                 '/guide/avaritia/aci',
+                 '/guide/avaritia/aopi',
+               ],
+             },
+             '/guide/avaritia/acmdusage',
+           ],
+         },
+         {
+           text: 'Super Stick Sword',
+           collapsible: true,
+           children: [
+             '/guide/super-stick-sword/super-stick-sword',
+             '/guide/super-stick-sword/super-stick-sword-features',
+           ],
+         },
           {
             text: 'Super Farming',
             collapsible: true,
@@ -125,9 +155,16 @@ export default defineUserConfig({
         selectLanguageName: '🇺🇸 English',
         navbar: [
           { text: 'Home', link: '/en/' },
-          { text: 'Guide', link: '/en/guide/' },
-          { 
-            text: '🔤 Font', 
+          { text: 'Guide',
+            children: [
+              { text: 'ProjectE', link: '/en/guide/projecte/' },
+              { text: 'Avaritia', link: '/en/guide/avaritia/' },
+              { text: 'Super Stick Sword', link: '/en/guide/super-stick-sword/' },
+              { text: 'Super Farming', link: '/en/guide/super-farming/' },
+            ]
+          },
+          {
+            text: '🔤 Font',
             children: [
               { text: '🎮 Minecraft AE', link: 'javascript:void(0)', rel: 'font-minecraft' },
               { text: '💻 System Default', link: 'javascript:void(0)', rel: 'font-system' },
@@ -169,14 +206,36 @@ export default defineUserConfig({
               '/en/guide/projecte/credits',
             ],
           },
-          {
-            text: 'Super Stick Sword',
-            collapsible: true,
-            children: [
-              '/en/guide/super-stick-sword/super-stick-sword',
-              '/en/guide/super-stick-sword/super-stick-sword-features',
-            ],
-          },
+         {
+           text: 'Avaritia-Plugin',
+           collapsible: true,
+           children: [
+             '/en/guide/avaritia/',
+             '/en/guide/avaritia/one',
+             {
+               text: 'Avaritia Config',
+               collapsible: true,
+               children: [
+                 '/en/guide/avaritia/aconfig',
+                 '/en/guide/avaritia/arecipe',
+                 '/en/guide/avaritia/amainconfig',
+                 '/en/guide/avaritia/alang',
+                 '/en/guide/avaritia/acmd',
+                 '/en/guide/avaritia/aci',
+                 '/en/guide/avaritia/aopi',
+               ],
+             },
+             '/en/guide/avaritia/acmdusage',
+           ],
+         },
+         {
+           text: 'Super Stick Sword',
+           collapsible: true,
+           children: [
+             '/en/guide/super-stick-sword/super-stick-sword',
+             '/en/guide/super-stick-sword/super-stick-sword-features',
+           ],
+         },
           {
             text: 'Super Farming',
             collapsible: true,
@@ -193,9 +252,16 @@ export default defineUserConfig({
         selectLanguageName: 'lzh 文言文',
         navbar: [
           { text: '卷首', link: '/lzh/' },
-          { text: '指引', link: '/lzh/guide/' },
-          { 
-            text: '🔤 字体', 
+          { text: '指引',
+            children: [
+              { text: 'ProjectE', link: '/lzh/guide/projecte/' },
+              { text: 'Avaritia', link: '/lzh/guide/avaritia/' },
+              { text: '神奇棍剑', link: '/lzh/guide/super-stick-sword/' },
+              { text: '超级农事', link: '/lzh/guide/super-farming/' },
+            ]
+          },
+          {
+            text: '🔤 字体',
             children: [
               { text: '🎮 Minecraft AE', link: 'javascript:void(0)', rel: 'font-minecraft' },
               { text: '💻 系统字体', link: 'javascript:void(0)', rel: 'font-system' },
@@ -237,14 +303,36 @@ export default defineUserConfig({
               '/lzh/guide/projecte/credits'
             ]
           },
-          {
-            text: '神奇棍剑',
-            collapsible: true,
-            children: [
-              '/lzh/guide/super-stick-sword/super-stick-sword',
-              '/lzh/guide/super-stick-sword/super-stick-sword-features'
-            ]
-          },
+         {
+           text: 'Avaritia-Plugin (無盡貪婪)',
+           collapsible: true,
+           children: [
+             '/lzh/guide/avaritia/',
+             '/lzh/guide/avaritia/one',
+             {
+               text: 'Avaritia之策',
+               collapsible: true,
+               children: [
+                 '/lzh/guide/avaritia/aconfig',
+                 '/lzh/guide/avaritia/arecipe',
+                 '/lzh/guide/avaritia/amainconfig',
+                 '/lzh/guide/avaritia/alang',
+                 '/lzh/guide/avaritia/acmd',
+                 '/lzh/guide/avaritia/aci',
+                 '/lzh/guide/avaritia/aopi',
+               ],
+             },
+             '/lzh/guide/avaritia/acmdusage',
+           ],
+         },
+         {
+           text: '神奇棍剑',
+           collapsible: true,
+           children: [
+             '/lzh/guide/super-stick-sword/super-stick-sword',
+             '/lzh/guide/super-stick-sword/super-stick-sword-features'
+           ]
+         },
           {
             text: '超级农事',
             collapsible: true,
@@ -278,9 +366,16 @@ export default defineUserConfig({
         selectLanguageName: '🇹🇼 繁體中文',
         navbar: [
           { text: '首頁', link: '/zh-TW/' },
-          { text: '指南', link: '/zh-TW/guide/' },
-          { 
-            text: '🔤 字體', 
+          { text: '指南',
+            children: [
+              { text: 'ProjectE', link: '/zh-TW/guide/projecte/' },
+              { text: 'Avaritia', link: '/zh-TW/guide/avaritia/' },
+              { text: '超級棍劍', link: '/zh-TW/guide/super-stick-sword/' },
+              { text: '超級農事', link: '/zh-TW/guide/super-farming/' },
+            ]
+          },
+          {
+            text: '🔤 字體',
             children: [
               { text: '🎮 Minecraft AE', link: 'javascript:void(0)', rel: 'font-minecraft' },
               { text: '💻 系統預設', link: 'javascript:void(0)', rel: 'font-system' },
@@ -322,14 +417,36 @@ export default defineUserConfig({
               '/zh-TW/guide/projecte/credits'
             ]
           },
-          {
-            text: '超級棍劍',
-            collapsible: true,
-            children: [
-              '/zh-TW/guide/super-stick-sword/super-stick-sword',
-              '/zh-TW/guide/super-stick-sword/super-stick-sword-features'
-            ]
-          },
+         {
+           text: 'Avaritia-Plugin (無盡貪婪插件)',
+           collapsible: true,
+           children: [
+             '/zh-TW/guide/avaritia/',
+             '/zh-TW/guide/avaritia/one',
+             {
+               text: 'Avaritia 設定',
+               collapsible: true,
+               children: [
+                 '/zh-TW/guide/avaritia/aconfig',
+                 '/zh-TW/guide/avaritia/arecipe',
+                 '/zh-TW/guide/avaritia/amainconfig',
+                 '/zh-TW/guide/avaritia/alang',
+                 '/zh-TW/guide/avaritia/acmd',
+                 '/zh-TW/guide/avaritia/aci',
+                 '/zh-TW/guide/avaritia/aopi',
+               ],
+             },
+             '/zh-TW/guide/avaritia/acmdusage',
+           ],
+         },
+         {
+           text: '超級棍劍',
+           collapsible: true,
+           children: [
+             '/zh-TW/guide/super-stick-sword/super-stick-sword',
+             '/zh-TW/guide/super-stick-sword/super-stick-sword-features'
+           ]
+         },
           {
             text: '超級農事',
             collapsible: true,
